@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="597px" height="389px" viewBox="0 0 597 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Pipe</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pipe">
+            <g id="Group-3">
+                <polygon id="Path" fill="#7BE200" points="0 0 0 216 597 216 597 0"></polygon>
+                <g id="Group" transform="translate(0.000000, 22.000000)">
+                    <polygon id="Path-6" fill="#00A000" points="9.86843254e-17 0 9.86843254e-17 12.4587156 56.8876404 12.4587156 56.8876404 -5.19027714e-14"></polygon>
+                    <polygon id="Path-6" fill="#00B700" points="9.86843254e-17 12.4587156 9.86843254e-17 24.9174312 56.8876404 24.9174312 56.8876404 12.4587156"></polygon>
+                    <rect id="Rectangle" fill="#00A000" x="56.8876404" y="0" width="26.1123596" height="194"></rect>
+                </g>
+                <polygon id="Path-6" fill="#00A000" points="189 22 189 34 246 34 246 22"></polygon>
+                <polygon id="Path-6" fill="#00A000" points="272 22 272 34 597 34 597 22"></polygon>
+                <polygon id="Path-6" fill="#00B700" points="189 34 189 46 246 46 246 34"></polygon>
+                <rect id="Rectangle" fill="#00A000" x="246" y="22" width="26" height="194"></rect>
+                <rect id="Rectangle" fill="#7BE200" x="272" y="34" width="43" height="181"></rect>
+                <rect id="Rectangle" fill="#00B700" x="272" y="34" width="43" height="12"></rect>
+                <rect id="Rectangle" fill="#00B700" x="465" y="34" width="132" height="12"></rect>
+                <g id="Group-2" transform="translate(465.000000, 46.000000)" fill="#00B700">
+                    <rect id="Rectangle" x="2.27373675e-13" y="0" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="14" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="29" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="42" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="56" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="70" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="86" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="100" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="114" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="127" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="142" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="156" width="14" height="14"></rect>
+                </g>
+                <g id="Group-2" transform="translate(493.000000, 46.000000)" fill="#00B700">
+                    <rect id="Rectangle" x="2.27373675e-13" y="0" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="14" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="29" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="42" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="56" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="70" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="86" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="100" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="114" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="127" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="2.27373675e-13" y="142" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="156" width="14" height="14"></rect>
+                </g>
+                <g id="Group-2" transform="translate(521.000000, 46.000000)" fill="#00B700">
+                    <rect id="Rectangle" x="4.54747351e-13" y="0" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="14" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="4.54747351e-13" y="29" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="42" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="4.54747351e-13" y="56" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="70" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="4.54747351e-13" y="86" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="100" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="4.54747351e-13" y="114" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="127" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="4.54747351e-13" y="142" width="14" height="14"></rect>
+                    <rect id="Rectangle" x="14" y="156" width="14" height="14"></rect>
+                </g>
+                <rect id="Rectangle" fill="#00A000" x="315" y="34" width="150" height="182"></rect>
+                <rect id="Rectangle" fill="#7BE200" x="57" y="216" width="492" height="173"></rect>
+                <rect id="Rectangle" fill="#00A000" x="112" y="216" width="26" height="173"></rect>
+                <rect id="Rectangle" fill="#00A000" x="218" y="216" width="26" height="173"></rect>
+                <g id="Group-2" transform="translate(409.000000, 216.000000)" fill="#00B700">
+                    <rect id="Rectangle" x="0" y="0" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="15.0820513" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="29.2769231" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="42.5846154" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="57.6666667" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="71.8615385" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="86.9435897" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="101.138462" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="116.220513" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="129.528205" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="143.723077" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="158.805128" width="14" height="14.1948718"></rect>
+                </g>
+                <g id="Group-2" transform="translate(437.000000, 216.000000)" fill="#00B700">
+                    <rect id="Rectangle" x="0" y="0" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="15.0820513" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="29.2769231" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="42.5846154" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="57.6666667" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="71.8615385" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="86.9435897" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="101.138462" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="116.220513" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="129.528205" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="0" y="143.723077" width="14" height="14.1948718"></rect>
+                    <rect id="Rectangle" x="14" y="158.805128" width="14" height="14.1948718"></rect>
+                </g>
+                <rect id="Rectangle" fill="#00A000" x="259" y="216" width="150" height="173"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

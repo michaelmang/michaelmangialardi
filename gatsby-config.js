@@ -47,5 +47,13 @@ module.exports = {
           token: process.env.GRAPHCMS_TOKEN,
         },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images/
+        }
+      }
+    },
   ],
 }
