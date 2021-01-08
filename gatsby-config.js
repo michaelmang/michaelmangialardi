@@ -9,11 +9,9 @@ const path = require("path")
 const tailwindConfig = require("./tailwind.config.js")
 
 const dotenv = require('dotenv')
-console.log({ dotenv })
 dotenv.config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-console.log(process.env);
 
 module.exports = {
   /* Your site config here */

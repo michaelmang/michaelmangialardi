@@ -9,7 +9,7 @@ import Heading from "../components/heading";
 import Icon from "../components/icon";
 import Layout from "../components/layout";
 import Pill from "../components/pill";
-import Preview from "../components/preview";
+import Posts from "../components/posts";
 
 export default function Home({ data }) {
   return (
@@ -26,7 +26,7 @@ export default function Home({ data }) {
                 </h1>
                 <h2 className="mt-8 text-3xl text-light font-black leading-10">
                   I'm a <span className="text-cta">UI developer</span> at <a className="text-accent" href="https://www.rackspace.com/" target="_blank" rel="noopener noreferrer">Rackspace Technology</a>{' '}
-                  specializing in <span className="text-cta">React</span> and fluent in <span className="text-cta">UI/UX design</span>.
+                  specializing in <span className="text-cta">React</span>, fluent across the <span className="text-cta">full stack</span>, and experienced in <span className="text-cta">UI/UX design</span>.
                 </h2>
                 <div className="flex flex-row mt-10">
                     <ExternalLink to="https://github.com/michaelmang">
@@ -51,23 +51,14 @@ export default function Home({ data }) {
                     </ExternalLink>
                 </div>
               </WindupChildren>
+              <Img fluid={data.pipe.childImageSharp.fluid} />
             </div>
           </div>
           <div className="flex flex-row justify-between mt-16">
             <div className="flex flex-col w-2/3">
-              <Heading>Professional Experience</Heading>
-              <Preview subtitle="October 2016 - Present" title="Rackspace Technology">
-                <p>I develop the UI for the Microsoft 365 admin portal for Rackspace Technology.</p>
-                <p className="my-4">My day-to-day consists of developing product features, writing code reviews, working with API developers to create contracts and develop mock APIs, and working closely with a product team and UX designer to the designs and scope for our project roadmap.</p>
-                <p>Additionally, I lead three other frontend developers taking ownership of planning projects, progressing towards an architectural vision, establishing code patterns, engineering our deployment pipeline, and documenting along the way.</p>
-              </Preview>
-              
-              <Heading className="mt-6">Side Projects</Heading>
-              <Preview subtitle="October 2016 - Present" title="Rackspace Technology">
-                <p>I develop the UI for the Microsoft 365 admin portal for Rackspace Technology.</p>
-                <p className="my-4">My day-to-day consists of developing product features, writing code reviews, working with API developers to create contracts and develop mock APIs, and working closely with a product team and UX designer to the designs and scope for our project roadmap.</p>
-                <p>Additionally, I lead three other frontend developers taking ownership of planning projects, progressing towards an architectural vision, establishing code patterns, engineering our deployment pipeline, and documenting along the way.</p>
-              </Preview>
+              {["Professional Experience", "Side Projects"].map(heading => (
+                <Posts className="mb-6" heading={heading} posts={data.posts} />
+              ))}
             </div>
             <div className="flex flex-col w-1/3">
               <Heading>Technical Skills</Heading>
@@ -84,6 +75,7 @@ export default function Home({ data }) {
                 <Pill>Code Reviews</Pill>
                 <Pill>Technical Writing</Pill>
                 <Pill>Version Control</Pill>
+                <Pill>UI/UX Design</Pill>
               </div>
 
               <Heading className="mt-6">Technologies</Heading>
@@ -91,12 +83,20 @@ export default function Home({ data }) {
                 <Pill>React</Pill>
                 <Pill>Redux</Pill>
                 <Pill>GraphQL</Pill>
-                <Pill>Apollo</Pill>
+                <Pill>Apollo Client</Pill>
+                <Pill>Apollo Server</Pill>
                 <Pill>Hasura</Pill>
+                <Pill>Node</Pill>
                 <Pill>Express</Pill>
                 <Pill>Gatsby</Pill>
                 <Pill>Jest</Pill>
+                <Pill>Enzyme</Pill>
+                <Pill>React Testing Library</Pill>
                 <Pill>Puppeteer</Pill>
+                <Pill>Babel</Pill>
+                <Pill>Webpack</Pill>
+                <Pill>PostgreSQL</Pill>
+                <Pill>Elixir</Pill>
                 <Pill>.NET Core</Pill>
                 <Pill>Azure</Pill>
                 <Pill>TeamCity</Pill>
@@ -105,7 +105,6 @@ export default function Home({ data }) {
               
               <Heading className="mt-6">Professional Skills</Heading>
               <div className="flex flex-row flex-wrap">
-                <Pill>UI/UX Design</Pill>
                 <Pill>Project Planning</Pill>
                 <Pill>Agile Development</Pill>
                 <Pill>Interview Paneling</Pill>
@@ -127,6 +126,37 @@ export const query = graphql`
         # Makes it trivial to update as your page's design changes.
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    pipe: file(relativePath: { eq: "pipe.svg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 1000, quality: 100) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    coin_block: file(relativePath: { eq: "coin_block.svg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 1000, quality: 100) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    posts: allGraphCmsPost(filter: {tags: {in: ["professional-experience", "side-projects"]}}, sort: {order: ASC, fields: date}) {
+      edges {
+        node {
+          slug
+          title
+          content {
+            html
+          }
+          subtitle
+          tags
         }
       }
     }
