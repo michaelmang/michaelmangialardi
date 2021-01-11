@@ -5,6 +5,7 @@ import {
   faMedium,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons"
+import { faLocationArrow, faMapMarkedAlt, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { WindupChildren } from "windups"
@@ -84,6 +85,13 @@ export default function Home({ data }) {
                     />
                   </Boop>
                 </ExternalLink>
+              </div>
+              <div className="flex flex-row mt-6">
+                <Icon
+                  className="text-2xl text-light mr-3"
+                  icon={faMapMarkerAlt}
+                />
+                <div className="text-light text-lg">Blacksburg, Virginia</div>
               </div>
             </WindupChildren>
           </div>
