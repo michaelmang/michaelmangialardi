@@ -11,9 +11,6 @@ export default function Layout({ children }) {
             <Navigation />
             {children}
           </div>
-          <div className={context.isDark ? 'darkTheme' : 'lightTheme'}>
-            {/* ... */}
-          </div>
         </div>
       )}
     </state.Consumer>
