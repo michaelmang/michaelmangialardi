@@ -4,7 +4,7 @@ import { useHover } from 'react-use'
 export default function Preview({ children, cta: defaultCta = "Read more", link = "/", subtitle, title: defaultTitle }) {
   function title(hovered) {
     return (
-      <div className={`cursor-pointer text-lg ${hovered ? 'text-cta' : 'text-dark dark:text-light'} font-bold`}>{defaultTitle}</div>
+      <div className={`cursor-pointer text-lg w-max ${hovered ? 'text-cta' : 'text-dark dark:text-light'} font-bold`}>{defaultTitle}</div>
     )
   }
 
