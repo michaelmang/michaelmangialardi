@@ -6,6 +6,10 @@ export default function Navigation() {
       <Link className="text-cta font-bold text-xl tracking-wider" to="/">
         Michael Mangialardi
       </Link>
+
+      <Link className="text-cta font-bold text-lg tracking-wider" to="/blog">
+        Blog
+      </Link>
     </nav>
   )
 }
