@@ -1,7 +1,5 @@
 import { Link } from 'gatsby';
 
-import ExternalLink from './external-link'
-
 export default function Navigation() {
   return (
     <nav className="flex flex-row justify-between mb-8">

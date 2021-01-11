@@ -1,7 +1,6 @@
 import { graphql } from "gatsby"
 import startcase from "lodash.startcase"
 import { useState } from "react"
-import { WindupChildren } from "windups"
 
 import Layout from "../components/layout"
 import Pill from "../components/pill"
@@ -33,9 +32,7 @@ export default function Blog({ data }) {
                     className={`${filter === category ? "bg-cta" : ""} hover:bg-cta cursor-pointer`}
                     onClick={() => setFilter(category)}
                   >
-                    <WindupChildren>
-                      {startcase(category.toUpperCase())}
-                    </WindupChildren>
+                    {startcase(category.toUpperCase())}
                   </Pill>
                 ))}
               </div>
