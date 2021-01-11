@@ -24,9 +24,9 @@ export default function Blog({ data }) {
       <div className="h-full w-full flex flex-col">
           {!!categories.length && (
             <div className="flex flex-col my-6">
-              <h1 className="mb-3 text-3xl text-dark dark:text-light font-black leading-10">
+              <h2 className="mb-3 text-3xl text-dark dark:text-light font-black leading-10">
                 Categories
-              </h1>
+              </h2>
               <div className="flex flex-row items-center">
                 {["all", ...categories].map(category => (
                   <Pill
@@ -42,15 +42,15 @@ export default function Blog({ data }) {
             </div>
           )}
         <div className="flex flex-row my-6">
-          <div className="text-3xl text-dark dark:text-light font-black leading-10">
+          <h1 className="text-3xl text-dark dark:text-light font-black leading-10">
             {startcase(filter.toLowerCase())} Posts
-          </div>
+          </h1>
         </div>
         <div className="flex flex-row flex-wrap w-full">
           {data.allGraphCmsPost.edges.filter(({ node }) => filter === "all" || node.tags.includes(filter)).map(({ node }) => (
             <Preview
               key={node.title}
-              className="text-light w-1/3 p-8 rounded-lg shadow-xl border-background dark:border-accent border-4 mr-6"
+              className="text-light w-1/3 p-8 rounded-lg shadow-xl border-background-light border-4 mr-6"
               slug={node.slug}
               subtitle={node.subtitle}
               title={node.title}

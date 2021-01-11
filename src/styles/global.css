@@ -10,3 +10,87 @@
 #gatsby-focus-wrapper {
   overflow-x: hidden;
 }
+
+main {
+  @apply text-lg;
+}
+
+main > p {
+  @apply py-2;
+}
+
+.dark main > p {
+  @apply text-light;
+}
+
+main > h4 {
+  @apply text-3xl;
+  @apply font-black;
+  @apply text-background;
+  @apply mt-2;
+  @apply mb-6;
+}
+
+main > h5 {
+  @apply text-2xl;
+  @apply font-black;
+  @apply text-background;
+  @apply mt-2;
+  @apply mb-5;
+}
+
+main > h6 {
+  @apply text-xl;
+  @apply font-black;
+  @apply text-background;
+  @apply mt-2;
+  @apply mb-4;
+}
+
+.dark main > h4,
+.dark main > h5,
+.dark main > h6 {
+  @apply text-background-light;
+}
+
+main > p > a {
+  @apply font-black;
+  @apply text-cta;
+}
+
+main > p > a:hover {
+  @apply underline;
+}
+
+main > p > em {
+  @apply font-black;
+  @apply text-background;
+}
+
+main > p > strong {
+  @apply text-background;
+}
+
+.dark main > p > strong,
+.dark main > p > em {
+  @apply text-accent;
+}
+
+main > blockquote {
+  @apply p-4;
+  @apply text-light;
+  @apply bg-background;
+  @apply rounded-sm;
+  @apply border-l-4;
+  @apply border-accent;
+  @apply bg-gradient-to-r;
+  @apply from-background;
+  @apply to-background-light;
+}
+
+main > p > code.inline-code {
+  @apply px-1;
+  @apply bg-background;
+  @apply text-light;
+  @apply rounded-sm;
+}
