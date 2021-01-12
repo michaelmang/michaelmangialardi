@@ -15,6 +15,14 @@ dotenv.config({
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Michael Mangialardi",
+    titleTemplate: "%s · Michael Mangialardi",
+    description: "Web development tutorials from an impostor syndrome survivor. Learn React, JavaScript, CSS, and more!",
+    url: "https://michaelmang.dev", // No trailing slash allowed!
+    image: "/card.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@michaelmangial1",
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-postcss`,
