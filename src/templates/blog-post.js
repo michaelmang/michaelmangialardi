@@ -2,9 +2,10 @@ import { graphql } from "gatsby"
 import 'highlight.js/styles/dracula.css'
 import hljs from 'highlight.js'
 import startcase from "lodash.startcase"
-import { useEffect, useRef } from "react";
+import { Fragment, useEffect, useRef } from "react";
 import reactElementToJSXString from 'react-element-to-jsx-string';
 
+import Bio from "../components/bio"
 import ExternalLink from "../components/external-link"
 import Layout from "../components/layout"
 import ThemeToggle from "../components/theme-toggle"
@@ -52,6 +53,7 @@ export default function BlogPost({ data }) {
     }
   }, [contentRef])
   
+  const author = data.graphCmsAuthor
   const post = data.graphCmsPost
 
   return (
@@ -71,9 +73,13 @@ export default function BlogPost({ data }) {
           Last Updated: {post.date}
         </div>
         {post.tags.includes("blog") && (
-          <ExternalLink className="text-cta font-bold text-lg tracking-wider" to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}>
-            Discuss On Twitter
-          </ExternalLink>
+          <Fragment>
+            <ExternalLink className="text-cta font-bold text-lg tracking-wider" to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}>
+              Discuss On Twitter
+            </ExternalLink>
+            <hr className="border-accent dark:border-background border-t-2 w-full max-w-screen-lg my-6" />
+            <Bio className="max-w-screen-lg mt-3" fluid={data.avatar.childImageSharp.fluid} name={author.name}>{author.biography}</Bio>
+          </Fragment>
         )}
       </div>
       <div className="fixed flex flex-col top-1/4 right-10">
@@ -85,9 +91,6 @@ export default function BlogPost({ data }) {
 export const query = graphql`
   query($slug: String!) {
     graphCmsPost(slug: { eq: $slug }) {
-      author {
-        name
-      }
       content {
         html
       }
@@ -99,6 +102,19 @@ export const query = graphql`
       tags
       subtitle
       excerpt
+    }
+    graphCmsAuthor(name: {eq: "Michael Mangialardi"}) {
+      biography
+      name
+    }
+    avatar: file(relativePath: { eq: "avatar.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 1000, quality: 100) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
     }
   }
 `
