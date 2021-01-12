@@ -8,7 +8,7 @@ import {
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import { WindupChildren } from "windups"
+import { Pace, WindupChildren } from "windups"
 
 import Boop from "../components/boop"
 import ExternalLink from "../components/external-link"
@@ -33,15 +33,15 @@ export default function Home({ data }) {
               Hi, I'm Michael Mangialardi 👋
             </h1>
             <h2 className="mt-4 md:mt-8 text-xl md:text-3xl text-light font-black leading-8 md:leading-10">
-              I'm a <WindupChildren><span className="text-cta">UI developer</span></WindupChildren> at{" "}
+              I'm a <WindupChildren><Pace ms={125}><span className="text-cta">UI developer</span></Pace></WindupChildren> at{" "}
               <ExternalLink to="https://www.rackspace.com/">
                 Rackspace Technology{" "}
               </ExternalLink>
-              specializing in <span className="text-cta">React</span>,
+              specializing in <WindupChildren><Pace ms={125}><span className="text-cta">React</span></Pace></WindupChildren>,
               fluent across the{" "}
-              <WindupChildren><span className="text-cta">full stack</span></WindupChildren>, and
+              <WindupChildren><Pace ms={125}><span className="text-cta">full stack</span></Pace></WindupChildren>, and
               experienced in{" "}
-              <WindupChildren><span className="text-cta">UI/UX design</span></WindupChildren>.
+              <WindupChildren><Pace ms={125}><span className="text-cta">UI/UX design</span></Pace></WindupChildren>.
             </h2>
             <div className="flex flex-row mt-6 md:mt-10">
               <ExternalLink to="https://github.com/michaelmang">
