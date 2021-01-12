@@ -22,11 +22,11 @@ export default function ThemeToggle() {
       {context => (
         <Fragment>
           <AnimatedReactMushroom
-            className={`h-16 w-auto mb-2`}
+            className={`h-10 md:h-16 w-auto mb-2`}
             style={spring}
           />
           <CoinBlock
-            className={`cursor-pointer h-16 w-auto mb-10 transition-all text-cta delay-75 hover:text-background`}
+            className={`cursor-pointer h-10 md:h-16 w-auto mb-6 md:mb-10 transition-all text-cta delay-75 hover:text-background`}
             onClick={() => {
               context.changeTheme()
               toggleSmashed()

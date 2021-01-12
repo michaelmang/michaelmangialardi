@@ -24,84 +24,82 @@ export default function Home({ data }) {
   return (
     <Layout>
       <div className="h-full w-full flex flex-col">
-        <div className="relative flex flex-row shadow-2xl bg-gradient-to-r from-background to-background-light justify-around items-center px-10">
-          <div className="h-full w-1/4">
+        <div className="relative rounded-sm flex flex-row shadow-2xl bg-gradient-to-r from-background to-background-light justify-around items-center px-4 py-6 md:px-10 md:py-0">
+          <div className="h-full hidden md:w-1/4 md:block">
             <Img fluid={data.portrait.childImageSharp.fluid} />
           </div>
-          <div className="flex flex-col w-3/4 px-10">
-            <WindupChildren>
-              <h1 className="font-bold tracking-wide text-light text-2xl">
-                Hi, I'm Michael Mangialardi 👋
-              </h1>
-              <h2 className="mt-8 text-3xl text-light font-black leading-10">
-                I'm a <span className="text-cta">UI developer</span> at{" "}
-                <ExternalLink to="https://www.rackspace.com/">
-                  Rackspace Technology{" "}
-                </ExternalLink>
-                specializing in <span className="text-cta">React</span>,
-                fluent across the{" "}
-                <span className="text-cta">full stack</span>, and
-                experienced in{" "}
-                <span className="text-cta">UI/UX design</span>.
-              </h2>
-              <div className="flex flex-row mt-10">
-                <ExternalLink to="https://github.com/michaelmang">
-                  <Boop>
-                    <Icon
-                      className="text-2xl text-light mr-3"
-                      icon={faGithubAlt}
-                    />
-                  </Boop>
-                </ExternalLink>
-                <ExternalLink to="https://codepen.io/mikemang">
-                  <Boop>
-                    <Icon
-                      className="text-2xl text-light mr-3"
-                      icon={faCodepen}
-                    />
-                  </Boop>
-                </ExternalLink>
-                <ExternalLink to="https://medium.com/@michaelmangial1">
-                  <Boop>
-                    <Icon
-                      className="text-2xl text-light mr-3"
-                      icon={faMedium}
-                    />
-                  </Boop>
-                </ExternalLink>
-                <ExternalLink to="https://dribbble.com/mikemang">
-                  <Boop>
-                    <Icon
-                      className="text-2xl text-light mr-3"
-                      icon={faDribbble}
-                    />
-                  </Boop>
-                </ExternalLink>
-                <ExternalLink to="https://www.youtube.com/channel/UCg9CbhSszDBIg-yxk-fSqhA/videos">
-                  <Boop>
-                    <Icon
-                      className="text-2xl text-light mr-3"
-                      icon={faYoutube}
-                    />
-                  </Boop>
-                </ExternalLink>
-              </div>
-              <div className="flex flex-row mt-6">
-                <Icon
-                  className="text-2xl text-light mr-3"
-                  icon={faMapMarkerAlt}
-                />
-                <div className="text-light text-lg">Blacksburg, Virginia</div>
-              </div>
-            </WindupChildren>
+          <div className="flex flex-col w-full md:w-3/4 px-4 md:px-10">
+            <h1 className="font-bold tracking-wide text-light text-lg md:text-2xl">
+              Hi, I'm Michael Mangialardi 👋
+            </h1>
+            <h2 className="mt-4 md:mt-8 text-xl md:text-3xl text-light font-black leading-8 md:leading-10">
+              I'm a <WindupChildren><span className="text-cta">UI developer</span></WindupChildren> at{" "}
+              <ExternalLink to="https://www.rackspace.com/">
+                Rackspace Technology{" "}
+              </ExternalLink>
+              specializing in <span className="text-cta">React</span>,
+              fluent across the{" "}
+              <WindupChildren><span className="text-cta">full stack</span></WindupChildren>, and
+              experienced in{" "}
+              <WindupChildren><span className="text-cta">UI/UX design</span></WindupChildren>.
+            </h2>
+            <div className="flex flex-row mt-6 md:mt-10">
+              <ExternalLink to="https://github.com/michaelmang">
+                <Boop>
+                  <Icon
+                    className="md:text-2xl text-xl text-light mr-3"
+                    icon={faGithubAlt}
+                  />
+                </Boop>
+              </ExternalLink>
+              <ExternalLink to="https://codepen.io/mikemang">
+                <Boop>
+                  <Icon
+                    className="md:text-2xl text-xl text-light mr-3"
+                    icon={faCodepen}
+                  />
+                </Boop>
+              </ExternalLink>
+              <ExternalLink to="https://medium.com/@michaelmangial1">
+                <Boop>
+                  <Icon
+                    className="md:text-2xl text-xl text-light mr-3"
+                    icon={faMedium}
+                  />
+                </Boop>
+              </ExternalLink>
+              <ExternalLink to="https://dribbble.com/mikemang">
+                <Boop>
+                  <Icon
+                    className="md:text-2xl text-xl text-light mr-3"
+                    icon={faDribbble}
+                  />
+                </Boop>
+              </ExternalLink>
+              <ExternalLink to="https://www.youtube.com/channel/UCg9CbhSszDBIg-yxk-fSqhA/videos">
+                <Boop>
+                  <Icon
+                    className="md:text-2xl text-xl text-light mr-3"
+                    icon={faYoutube}
+                  />
+                </Boop>
+              </ExternalLink>
+            </div>
+            <div className="flex flex-row mt-3 md:mt-6">
+              <Icon
+                className="md:text-2xl text-xl text-light mr-3"
+                icon={faMapMarkerAlt}
+              />
+              <div className="text-light text-sm md:text-lg">Blacksburg, Virginia</div>
+            </div>
           </div>
           <div className="flex flex-col absolute -bottom-0 right-4 justify-end">
             <ThemeToggle />
-            <Pipe className="h-24 w-auto" />
+            <Pipe className="h-12 md:h-24 w-auto" />
           </div>
         </div>
         <div className="flex flex-row justify-between mt-16">
-          <div className="flex flex-col w-2/3">
+          <div className="flex flex-col w-3/5 max-w-screen-sm">
             {["Professional Experience", "Side Projects"].map(heading => (
               <Posts
                 key={heading}
