@@ -12,7 +12,10 @@ export default function Navigation() {
           Blog
         </Link>
         
-        <a className="text-cta font-bold text-lg tracking-wider" href="mailto:mikemangialardi94@gmail.com">
+        <Link className="mr-3 md:mr-6 text-cta font-bold text-sm md:text-lg tracking-wider" to="/">
+          Work
+        </Link>
+        
           Contact
         </a>
       </div>
