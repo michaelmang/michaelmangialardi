@@ -10,7 +10,7 @@ export default function Lost() {
           Whoops! This page doesn't exist or got burnt
         </h1>
         <div className="flex flex-row items-center mt-10">
-          <Loading />
+          <Loading loop />
         </div>
       </div>
       <div className="fixed flex flex-col top-1/4 right-10">

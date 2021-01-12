@@ -6,14 +6,16 @@ import fadeIn from "../animations/fade-in"
 import Bowser from "../images/bowser.svg"
 import Flame from "../images/flame.svg"
 
-export default function Loading({ reverse = false, scale = 1 }) {
+const noop = () => {}
+
+export default function Loading({ loop = false, reverse = false, scale = 1 }) {
   const [isAnimating, toggleAnimation] = useToggle(true)
 
   const springs = {
     1: useSpring(fadeIn({ delay: 150, reset: !isAnimating })),
     2: useSpring(fadeIn({ delay: 350, reset: !isAnimating })),
     3: useSpring(
-      fadeIn({ delay: 550, reset: !isAnimating, onRest: toggleAnimation })
+      fadeIn({ delay: 550, reset: !isAnimating, onRest: loop ? toggleAnimation : noop })
     ),
   }
 

@@ -4,6 +4,7 @@ import hljs from 'highlight.js'
 import startcase from "lodash.startcase"
 import { Fragment, useEffect, useRef } from "react";
 import reactElementToJSXString from 'react-element-to-jsx-string';
+import { useToggle } from "react-use";
 
 import Bio from "../components/bio"
 import ExternalLink from "../components/external-link"
@@ -57,6 +58,8 @@ export default function BlogPost({ data }) {
   const author = data.graphCmsAuthor
   const post = data.graphCmsPost
 
+  const [isDiscussHovered, toggleDiscussHovered] = useToggle(false)
+
   return (
     <Layout>
       <div className="h-full w-full flex flex-col items-center pt-20">
@@ -76,11 +79,20 @@ export default function BlogPost({ data }) {
         {post.tags.includes("blog") && (
           <Fragment>
             <div className="flex flex-row items-center">
-              <Loading scale={1/8} />
-              <ExternalLink className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider" to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}>
+              <Loading loop={isDiscussHovered} scale={1/8} />
+              <ExternalLink
+                className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
+                onMouseEnter={() => {
+                  toggleDiscussHovered()
+                }}
+                onMouseLeave={() => {
+                  toggleDiscussHovered()
+                }}
+                to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}
+              >
                 Discuss On Twitter
               </ExternalLink>
-              <Loading scale={1/8} reverse />
+              <Loading loop={isDiscussHovered} scale={1/8} reverse />
             </div>
             <hr className="border-accent dark:border-background border-t-2 w-full max-w-screen-lg my-6" />
             <Bio className="max-w-screen-lg mt-3" fluid={data.avatar.childImageSharp.fluid} name={author.name}>{author.biography}</Bio>
