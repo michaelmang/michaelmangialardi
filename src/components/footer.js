@@ -19,6 +19,9 @@ export default function Footer() {
           <Link className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6" to="/blog">
             Blog
           </Link>
+          <Link className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6" to="/">
+            Work
+          </Link>
           <a className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider" href="mailto:mikemangialardi94@gmail.com">
             Contact
           </a>
