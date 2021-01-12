@@ -5,6 +5,7 @@ import startcase from "lodash.startcase"
 import { useEffect, useRef } from "react";
 import reactElementToJSXString from 'react-element-to-jsx-string';
 
+import ExternalLink from "../components/external-link"
 import Layout from "../components/layout"
 import ThemeToggle from "../components/theme-toggle"
 
@@ -64,6 +65,16 @@ export default function BlogPost({ data }) {
           {post.subtitle}
         </h2>
         <main className="max-w-screen-sm" dangerouslySetInnerHTML={{ __html: format(post.content.html) }} ref={contentRef} />
+      </div>
+      <div className="flex flex-col items-center mt-10">
+        <div className="mb-2 text-dark dark:text-light opacity-75 font-bold text-xs tracking-wider">
+          Last Updated: {post.date}
+        </div>
+        {post.tags.includes("blog") && (
+          <ExternalLink className="text-cta font-bold text-lg tracking-wider" to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}>
+            Discuss On Twitter
+          </ExternalLink>
+        )}
       </div>
       <div className="fixed flex flex-col top-1/4 right-10">
         <ThemeToggle />
