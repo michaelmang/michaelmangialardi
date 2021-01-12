@@ -21,23 +21,23 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <div className="h-full w-full flex flex-col">
-          {!!categories.length && (
-            <div className="flex flex-col my-6">
-              <h2 className="mb-3 text-3xl text-dark dark:text-light font-black leading-10">
-                Categories
-              </h2>
-              <div className="flex flex-row items-center">
-                {["all", ...categories].map(category => (
-                  <Pill
-                    className={`${filter === category ? "bg-cta" : ""} hover:bg-cta cursor-pointer`}
-                    onClick={() => setFilter(category)}
-                  >
-                    {startcase(category.toUpperCase())}
-                  </Pill>
-                ))}
-              </div>
+        {!!categories.length && (
+          <div className="flex flex-col my-6">
+            <h2 className="mb-3 text-3xl text-dark dark:text-light font-black leading-10">
+              Categories
+            </h2>
+            <div className="flex flex-row items-center">
+              {["all", ...categories].map(category => (
+                <Pill
+                  className={`${filter === category ? "bg-cta" : ""} hover:bg-cta cursor-pointer`}
+                  onClick={() => setFilter(category)}
+                >
+                  {startcase(category.toUpperCase())}
+                </Pill>
+              ))}
             </div>
-          )}
+          </div>
+        )}
         <div className="flex flex-row my-6">
           <h1 className="text-3xl text-dark dark:text-light font-black leading-10">
             {startcase(filter.toLowerCase())} Posts
