@@ -5,7 +5,7 @@ import {
   faMedium,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons"
-import { faLocationArrow, faMapMarkedAlt, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { WindupChildren } from "windups"
@@ -108,6 +108,7 @@ export default function Home({ data }) {
                 className="mb-6"
                 heading={heading}
                 posts={data.posts}
+                subpath="/work"
               />
             ))}
           </div>
