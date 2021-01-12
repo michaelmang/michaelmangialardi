@@ -9,8 +9,8 @@ import ReactMushroom from "../images/react_mushroom.svg"
 export default function ThemeToggle() {
   const [smashed, toggleSmashed] = useToggle(false)
 
-  const moon = { color: "#0A0C10", y: 0 }
-  const sun = { color: "#FFE773", y: 0 }
+  const moon = { color: "#0A0C10" }
+  const sun = { color: "#FFE773" }
   const spring = useSpring({
     from: smashed ? sun : moon,
     to: smashed ? moon : sun,
