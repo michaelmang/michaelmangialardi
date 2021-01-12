@@ -1,5 +1,5 @@
-export default function ExternalLink({ children, to }) {
+export default function ExternalLink({ children, to, ...rest }) {
   return (
-    <a href={to} target="_blank" rel="noreferrer noopener">{children}</a>
+    <a {...rest} href={to} target="_blank" rel="noreferrer noopener">{children}</a>
   )
 }

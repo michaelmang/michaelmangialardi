@@ -29,6 +29,7 @@ export default function Blog({ data }) {
             <div className="flex flex-row items-center">
               {["all", ...categories].map(category => (
                 <Pill
+                  key={category}
                   className={`${filter === category ? "bg-cta" : ""} hover:bg-cta cursor-pointer`}
                   onClick={() => setFilter(category)}
                 >
