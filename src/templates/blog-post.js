@@ -8,6 +8,7 @@ import reactElementToJSXString from 'react-element-to-jsx-string';
 import Bio from "../components/bio"
 import ExternalLink from "../components/external-link"
 import Layout from "../components/layout"
+import Loading from "../components/loading"
 import ThemeToggle from "../components/theme-toggle"
 
 function format(defaultHtml) {
@@ -63,20 +64,24 @@ export default function BlogPost({ data }) {
         <h1 className="my-6 text-4xl text-dark dark:text-light font-black leading-10">
           {post.title}
         </h1>
-        <h2 className="mb-20 text-3xl font-bold leading-10 text-dark dark:text-light opacity-75">
+        <h2 className="mb-8 text-3xl font-bold leading-10 text-dark dark:text-light opacity-75">
           {post.subtitle}
         </h2>
+        <h5 className="mb-10 md:mb-20 text-dark dark:text-light opacity-75 font-bold text-xs tracking-wider">
+          Last Updated: {post.date}
+        </h5>
         <main className="max-w-screen-sm" dangerouslySetInnerHTML={{ __html: format(post.content.html) }} ref={contentRef} />
       </div>
       <div className="flex flex-col items-center mt-10">
-        <div className="mb-2 text-dark dark:text-light opacity-75 font-bold text-xs tracking-wider">
-          Last Updated: {post.date}
-        </div>
         {post.tags.includes("blog") && (
           <Fragment>
-            <ExternalLink className="text-cta font-bold text-lg tracking-wider" to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}>
-              Discuss On Twitter
-            </ExternalLink>
+            <div className="flex flex-row items-center">
+              <Loading scale={1/8} />
+              <ExternalLink className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider" to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}>
+                Discuss On Twitter
+              </ExternalLink>
+              <Loading scale={1/8} reverse />
+            </div>
             <hr className="border-accent dark:border-background border-t-2 w-full max-w-screen-lg my-6" />
             <Bio className="max-w-screen-lg mt-3" fluid={data.avatar.childImageSharp.fluid} name={author.name}>{author.biography}</Bio>
           </Fragment>
