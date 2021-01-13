@@ -10,6 +10,7 @@ import Bio from "../components/bio"
 import ExternalLink from "../components/external-link"
 import FireCta from "../components/fire-cta"
 import Layout from "../components/layout"
+import LikeButton from "../components/like-button"
 import SEO from "../components/seo"
 import ThemeToggle from "../components/theme-toggle"
 import Luigi from "../images/luigi.svg"
@@ -50,7 +51,7 @@ export default function BlogPost({ data }) {
   const contentRef = useRef(null)
 
   useEffect(() => {
-    if (contentRef) {
+    if (contentRef?.current) {
       const nodes = contentRef.current.querySelectorAll("pre")
       nodes.forEach(node => {
         hljs.highlightBlock(node)
@@ -147,6 +148,7 @@ export default function BlogPost({ data }) {
       </div>
       <div className="fixed flex flex-col top-1/4 right-10">
         <ThemeToggle />
+        <LikeButton slug={post.slug} />
       </div>
     </Layout>
   )

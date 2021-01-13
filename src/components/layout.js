@@ -1,5 +1,4 @@
 import Navigation from "./navigation"
-
 import Footer from './footer'
 import { state } from './provider'
 

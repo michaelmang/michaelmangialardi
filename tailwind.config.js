@@ -20,6 +20,7 @@ module.exports = {
     extend: {
       animation: ['hover', 'focus'],
       transform: ['hover', 'focus'],
+      translate: ['active'],
     },
   },
   plugins: [],
