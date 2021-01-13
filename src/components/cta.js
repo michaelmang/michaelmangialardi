@@ -8,9 +8,9 @@ function Em({ children }) {
   )
 }
 
-export default function Cta() {
+export default function Cta({ className }) {
   return (
-    <div className="flex flex-row self-center my-16 bg-light dark:bg-dark shadow-2xl max-w-screen-sm min-h-64 w-full p-8">
+    <div className={`flex flex-row self-center my-16 bg-light dark:bg-dark shadow-2xl max-w-screen-sm min-h-64 w-full p-8 ${className}`}>
       <div className="flex flex-col text-justify w-full">
         <div className="text-background dark:text-background-light text-lg md:text-xl font-black">
           A Newsletter for Learning What I'm Learning
@@ -30,13 +30,13 @@ export default function Cta() {
 
         <div className="flex flex-row items-center mt-12 h-32 w-full py-1">
           <div className="flex flex-col mr-6 w-1/4">
-            <label className="text-dark dar:text-light text-sm">First Name</label>
-            <input className="bg-light border-dark dark:border-light border-b-2 dark:bg-dark outline-none bg-transparent" type="text" />
+            <label className="text-dark dark:text-light text-sm">First Name</label>
+            <input className="text-dark dark:text-light bg-light border-dark dark:border-light border-b-2 dark:bg-dark outline-none bg-transparent" type="text" />
           </div>
           
           <div className="flex flex-col mr-6 w-1/4">
-            <label className="text-dark dar:text-light text-sm">Email</label>
-            <input className="bg-light border-dark dark:border-light border-b-2 dark:bg-dark outline-none bg-transparent" type="email" />
+            <label className="text-dark dark:text-light text-sm">Email</label>
+            <input className="text-dark dark:text-light bg-light border-dark dark:border-light border-b-2 dark:bg-dark outline-none bg-transparent" type="email" />
           </div>
 
           <Lakitu className="hover text-dark dark:text-light cursor-pointer -mt-12 h-full w-24 md:w-32" />

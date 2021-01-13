@@ -16,6 +16,10 @@ export default function Navigation() {
           Work
         </Link>
         
+        <Link className="mr-3 md:mr-6 text-cta font-bold text-sm md:text-lg tracking-wider" to="/newsletter">
+          Newsletter
+        </Link>
+        
         <a className="text-cta font-bold text-sm md:text-lg tracking-wider" href="mailto:mikemangialardi94@gmail.com">
           Contact
         </a>
