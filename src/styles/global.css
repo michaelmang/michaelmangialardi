@@ -73,24 +73,26 @@ main > p > strong {
 
 .dark main > p > strong,
 .dark main > p > em {
-  @apply text-accent;
+  @apply text-background-light;
 }
 
 main > blockquote {
   @apply p-4;
-  @apply text-light;
-  @apply bg-background;
+  @apply text-dark;
+  @apply bg-accent;
   @apply rounded-sm;
   @apply border-l-4;
-  @apply border-accent;
-  @apply bg-gradient-to-r;
-  @apply from-background;
-  @apply to-background-light;
+  @apply border-background;
+}
+
+
+.dark main > blockquote {
+  @apply border-background-light;
 }
 
 main > p > code.inline-code {
   @apply px-1;
-  @apply bg-background;
-  @apply text-light;
+  background-color: #F9F58B; /* Darker shade of "light" */
+  @apply text-dark;
   @apply rounded-sm;
 }
