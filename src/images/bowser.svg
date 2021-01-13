@@ -1,320 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="720px" height="720px" viewBox="0 0 720 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Group</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Bowser" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group">
-            <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="120" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="160" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="200" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="240" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="280" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="320" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="360" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="400" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="440" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="480" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="520" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="560" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="600" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="120" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="160" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="200" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="240" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="280" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#870000" x="320" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#870000" x="360" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="400" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#870000" x="440" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="480" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="520" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="560" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="600" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="120" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="160" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="200" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="240" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="280" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="320" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#870000" x="400" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="440" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#870000" x="480" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="520" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="560" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="600" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="120" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="160" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="200" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="240" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="280" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="320" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="400" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="440" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="480" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="520" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="560" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="600" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="120" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="160" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="200" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="240" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="280" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="320" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="440" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="480" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="520" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="560" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="600" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="120" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="160" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="200" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="320" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="360" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="400" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="440" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#870000" x="520" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="560" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="600" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="640" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="120" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="160" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="280" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="320" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="440" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="480" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="520" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="560" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="600" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="640" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="680" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="120" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="160" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="200" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="280" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#009D00" x="320" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="400" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="440" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="480" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="520" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="560" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="600" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="640" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="680" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="120" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="160" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="200" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="280" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="320" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="440" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="520" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#E9311F" x="600" y="320" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="80" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="120" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="160" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="200" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="240" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="280" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="320" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="360" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="440" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="480" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="520" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="560" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="600" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="360" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="40" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="80" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="120" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="160" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="200" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="240" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="280" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="320" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="360" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="400" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="440" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="480" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="520" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="560" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="600" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="640" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="400" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="40" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="80" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="120" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="160" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="200" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="240" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="280" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="320" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="440" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="480" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="520" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="560" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="600" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="640" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="440" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="80" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="120" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="160" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="280" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="320" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="440" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="480" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="520" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="560" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#423F4A" x="600" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="640" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="680" y="480" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="0" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="120" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="200" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="240" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="280" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="320" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="360" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="400" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="440" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="480" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="520" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B07619" x="560" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="600" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="640" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="520" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="0" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="40" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="80" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="120" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="160" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="200" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="280" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="320" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="360" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="440" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="480" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="520" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B07619" x="560" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="600" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="560" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="40" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="80" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="120" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="160" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="200" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="280" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="320" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="360" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="400" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="440" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="480" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="520" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="560" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="600" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="600" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="80" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="120" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="160" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="200" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="280" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="320" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="360" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="400" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="440" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#B0761B" x="480" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="520" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="560" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="600" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" x="640" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="640" width="40" height="40"></rect>
-            <rect id="Rectangle" x="0" y="679" width="40" height="40"></rect>
-            <rect id="Rectangle" x="40" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="80" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="120" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="160" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="200" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="240" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="280" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="320" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="360" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="400" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="440" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="480" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="520" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="560" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="600" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FFC000" x="640" y="680" width="40" height="40"></rect>
-            <rect id="Rectangle" x="680" y="680" width="40" height="40"></rect>
-        </g>
-    </g>
+<svg width="720" height="720" viewBox="0 0 720 720" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <path d="M0 0h40v40H0zM40 0h40v40H40zM80 0h40v40H80zM120 0h40v40h-40zM160 0h40v40h-40zM200 0h40v40h-40zM240 0h40v40h-40zM280 0h40v40h-40zM320 0h40v40h-40z"/>
+    <path fill="#E9311F" d="M360 0h40v40h-40z"/>
+    <path d="M400 0h40v40h-40z"/>
+    <path fill="#E9311F" d="M440 0h40v40h-40zM480 0h40v40h-40z"/>
+    <path d="M520 0h40v40h-40zM560 0h40v40h-40zM600 0h40v40h-40zM640 0h40v40h-40zM680 0h40v40h-40zM0 40h40v40H0zM40 40h40v40H40zM80 40h40v40H80zM120 40h40v40h-40zM160 40h40v40h-40zM200 40h40v40h-40zM240 40h40v40h-40z"/>
+    <path fill="#E9311F" d="M280 40h40v40h-40z"/>
+    <path fill="#870000" d="M320 40h40v40h-40zM360 40h40v40h-40z"/>
+    <path fill="#E9311F" d="M400 40h40v40h-40z"/>
+    <path fill="#870000" d="M440 40h40v40h-40z"/>
+    <path fill="#E9311F" d="M480 40h40v40h-40zM520 40h40v40h-40z"/>
+    <path d="M560 40h40v40h-40zM600 40h40v40h-40zM640 40h40v40h-40zM680 40h40v40h-40zM0 80h40v40H0zM40 80h40v40H40zM80 80h40v40H80zM120 80h40v40h-40zM160 80h40v40h-40z"/>
+    <path fill="currentColor" d="M200 80h40v40h-40z"/>
+    <path d="M240 80h40v40h-40zM280 80h40v40h-40z"/>
+    <path fill="#E9311F" d="M320 80h40v40h-40z"/>
+    <path fill="currentColor" d="M360 80h40v40h-40z"/>
+    <path fill="#870000" d="M400 80h40v40h-40z"/>
+    <path fill="#E9311F" d="M440 80h40v40h-40z"/>
+    <path fill="#870000" d="M480 80h40v40h-40z"/>
+    <path fill="#E9311F" d="M520 80h40v40h-40z"/>
+    <path d="M560 80h40v40h-40zM600 80h40v40h-40zM640 80h40v40h-40zM680 80h40v40h-40zM0 120h40v40H0zM40 120h40v40H40zM80 120h40v40H80zM120 120h40v40h-40zM160 120h40v40h-40z"/>
+    <path fill="currentColor" d="M200 120h40v40h-40zM240 120h40v40h-40z"/>
+    <path fill="#009D00" d="M280 120h40v40h-40z"/>
+    <path fill="#E9311F" d="M320 120h40v40h-40z"/>
+    <path fill="currentColor" d="M360 120h40v40h-40z"/>
+    <path fill="#E9311F" d="M400 120h40v40h-40zM440 120h40v40h-40z"/>
+    <path fill="#009D00" d="M480 120h40v40h-40zM520 120h40v40h-40z"/>
+    <path fill="#E9311F" d="M560 120h40v40h-40z"/>
+    <path d="M600 120h40v40h-40zM640 120h40v40h-40zM680 120h40v40h-40zM0 160h40v40H0zM40 160h40v40H40zM80 160h40v40H80zM120 160h40v40h-40zM160 160h40v40h-40z"/>
+    <path fill="#E9311F" d="M200 160h40v40h-40zM240 160h40v40h-40z"/>
+    <path fill="#009D00" d="M280 160h40v40h-40zM320 160h40v40h-40z"/>
+    <path fill="currentColor" d="M360 160h40v40h-40zM400 160h40v40h-40z"/>
+    <path fill="#E9311F" d="M440 160h40v40h-40zM480 160h40v40h-40zM520 160h40v40h-40z"/>
+    <path fill="#009D00" d="M560 160h40v40h-40z"/>
+    <path d="M600 160h40v40h-40zM640 160h40v40h-40zM680 160h40v40h-40zM0 200h40v40H0zM40 200h40v40H40zM80 200h40v40H80z"/>
+    <path fill="currentColor" d="M120 200h40v40h-40z"/>
+    <path fill="#009D00" d="M160 200h40v40h-40zM200 200h40v40h-40zM320 200h40v40h-40zM360 200h40v40h-40zM400 200h40v40h-40zM440 200h40v40h-40z"/>
+    <path fill="#870000" d="M520 200h40v40h-40z"/>
+    <path fill="#E9311F" d="M560 200h40v40h-40z"/>
+    <path fill="currentColor" d="M600 200h40v40h-40zM640 200h40v40h-40z"/>
+    <path d="M680 200h40v40h-40zM0 240h40v40H0zM40 240h40v40H40zM80 240h40v40H80z"/>
+    <path fill="currentColor" d="M120 240h40v40h-40zM160 240h40v40h-40z"/>
+    <path fill="#FFC000" d="M240 240h40v40h-40z"/>
+    <path fill="#423F4A" d="M280 240h40v40h-40z"/>
+    <path fill="#009D00" d="M320 240h40v40h-40z"/>
+    <path fill="currentColor" d="M360 240h40v40h-40zM400 240h40v40h-40z"/>
+    <path fill="#009D00" d="M440 240h40v40h-40zM480 240h40v40h-40zM520 240h40v40h-40z"/>
+    <path fill="currentColor" d="M560 240h40v40h-40zM600 240h40v40h-40z"/>
+    <path fill="#423F4A" d="M640 240h40v40h-40z"/>
+    <path fill="currentColor" d="M680 240h40v40h-40z"/>
+    <path d="M0 280h40v40H0zM40 280h40v40H40zM80 280h40v40H80z"/>
+    <path fill="#E9311F" d="M120 280h40v40h-40z"/>
+    <path fill="#423F4A" d="M160 280h40v40h-40z"/>
+    <path fill="#FFC000" d="M200 280h40v40h-40zM240 280h40v40h-40z"/>
+    <path fill="#423F4A" d="M280 280h40v40h-40z"/>
+    <path fill="#009D00" d="M320 280h40v40h-40z"/>
+    <path fill="currentColor" d="M360 280h40v40h-40z"/>
+    <path fill="#E9311F" d="M400 280h40v40h-40z"/>
+    <path fill="currentColor" d="M440 280h40v40h-40zM480 280h40v40h-40zM520 280h40v40h-40zM560 280h40v40h-40zM600 280h40v40h-40zM640 280h40v40h-40zM680 280h40v40h-40z"/>
+    <path d="M0 320h40v40H0zM40 320h40v40H40zM80 320h40v40H80z"/>
+    <path fill="#FFC000" d="M120 320h40v40h-40z"/>
+    <path fill="#423F4A" d="M160 320h40v40h-40zM200 320h40v40h-40z"/>
+    <path fill="#FFC000" d="M240 320h40v40h-40z"/>
+    <path fill="#423F4A" d="M280 320h40v40h-40zM320 320h40v40h-40z"/>
+    <path fill="currentColor" d="M360 320h40v40h-40zM400 320h40v40h-40z"/>
+    <path fill="#E9311F" d="M440 320h40v40h-40zM520 320h40v40h-40zM600 320h40v40h-40z"/>
+    <path d="M0 360h40v40H0zM40 360h40v40H40z"/>
+    <path fill="#423F4A" d="M80 360h40v40H80z"/>
+    <path fill="#FFC000" d="M120 360h40v40h-40zM160 360h40v40h-40z"/>
+    <path fill="#423F4A" d="M200 360h40v40h-40zM240 360h40v40h-40z"/>
+    <path fill="#B0761B" d="M280 360h40v40h-40z"/>
+    <path fill="#423F4A" d="M320 360h40v40h-40zM360 360h40v40h-40z"/>
+    <path fill="currentColor" d="M400 360h40v40h-40zM440 360h40v40h-40zM480 360h40v40h-40zM520 360h40v40h-40zM560 360h40v40h-40zM600 360h40v40h-40z"/>
+    <path d="M680 360h40v40h-40zM0 400h40v40H0z"/>
+    <path fill="#FFC000" d="M40 400h40v40H40z"/>
+    <path fill="#423F4A" d="M80 400h40v40H80zM120 400h40v40h-40z"/>
+    <path fill="#FFC000" d="M160 400h40v40h-40zM200 400h40v40h-40z"/>
+    <path fill="#B0761B" d="M240 400h40v40h-40zM280 400h40v40h-40zM320 400h40v40h-40z"/>
+    <path fill="#423F4A" d="M360 400h40v40h-40zM400 400h40v40h-40zM440 400h40v40h-40zM480 400h40v40h-40zM520 400h40v40h-40zM560 400h40v40h-40z"/>
+    <path fill="#FFC000" d="M600 400h40v40h-40z"/>
+    <path fill="#423F4A" d="M640 400h40v40h-40z"/>
+    <path d="M680 400h40v40h-40zM0 440h40v40H0z"/>
+    <path fill="#FFC000" d="M40 440h40v40H40zM80 440h40v40H80z"/>
+    <path fill="#423F4A" d="M120 440h40v40h-40zM160 440h40v40h-40z"/>
+    <path fill="#B0761B" d="M200 440h40v40h-40zM240 440h40v40h-40z"/>
+    <path fill="#FFC000" d="M280 440h40v40h-40z"/>
+    <path fill="currentColor" d="M320 440h40v40h-40zM360 440h40v40h-40zM400 440h40v40h-40zM440 440h40v40h-40zM480 440h40v40h-40zM520 440h40v40h-40z"/>
+    <path fill="#FFC000" d="M560 440h40v40h-40z"/>
+    <path fill="#423F4A" d="M600 440h40v40h-40zM640 440h40v40h-40z"/>
+    <path d="M680 440h40v40h-40zM0 480h40v40H0z"/>
+    <path fill="#FFC000" d="M80 480h40v40H80zM120 480h40v40h-40zM160 480h40v40h-40zM240 480h40v40h-40zM280 480h40v40h-40z"/>
+    <path fill="currentColor" d="M320 480h40v40h-40zM360 480h40v40h-40zM400 480h40v40h-40zM440 480h40v40h-40zM480 480h40v40h-40zM520 480h40v40h-40z"/>
+    <path fill="#423F4A" d="M560 480h40v40h-40zM600 480h40v40h-40z"/>
+    <path fill="#FFC000" d="M640 480h40v40h-40zM680 480h40v40h-40zM0 520h40v40H0zM120 520h40v40h-40z"/>
+    <path fill="#B0761B" d="M200 520h40v40h-40zM240 520h40v40h-40zM280 520h40v40h-40z"/>
+    <path fill="#FFC000" d="M320 520h40v40h-40zM360 520h40v40h-40zM400 520h40v40h-40zM440 520h40v40h-40zM480 520h40v40h-40zM520 520h40v40h-40z"/>
+    <path fill="#B07619" d="M560 520h40v40h-40z"/>
+    <path fill="#FFC000" d="M600 520h40v40h-40zM640 520h40v40h-40z"/>
+    <path d="M680 520h40v40h-40z"/>
+    <path fill="#FFC000" d="M0 560h40v40H0zM40 560h40v40H40zM80 560h40v40H80z"/>
+    <path fill="#B0761B" d="M120 560h40v40h-40zM160 560h40v40h-40z"/>
+    <path fill="#FFC000" d="M200 560h40v40h-40zM240 560h40v40h-40zM280 560h40v40h-40z"/>
+    <path fill="#B0761B" d="M320 560h40v40h-40z"/>
+    <path fill="currentColor" d="M360 560h40v40h-40zM400 560h40v40h-40zM440 560h40v40h-40zM480 560h40v40h-40zM520 560h40v40h-40z"/>
+    <path fill="#B07619" d="M560 560h40v40h-40z"/>
+    <path fill="#FFC000" d="M600 560h40v40h-40z"/>
+    <path d="M640 560h40v40h-40zM680 560h40v40h-40zM0 600h40v40H0z"/>
+    <path fill="#FFC000" d="M40 600h40v40H40zM80 600h40v40H80z"/>
+    <path fill="#B0761B" d="M120 600h40v40h-40z"/>
+    <path fill="#FFC000" d="M160 600h40v40h-40zM200 600h40v40h-40zM240 600h40v40h-40zM280 600h40v40h-40z"/>
+    <path fill="#B0761B" d="M320 600h40v40h-40z"/>
+    <path fill="#FFC000" d="M360 600h40v40h-40zM400 600h40v40h-40zM440 600h40v40h-40zM480 600h40v40h-40z"/>
+    <path fill="#B0761B" d="M520 600h40v40h-40z"/>
+    <path fill="#FFC000" d="M560 600h40v40h-40zM600 600h40v40h-40z"/>
+    <path d="M640 600h40v40h-40zM680 600h40v40h-40zM0 640h40v40H0zM40 640h40v40H40z"/>
+    <path fill="#FFC000" d="M80 640h40v40H80z"/>
+    <path fill="#B0761B" d="M120 640h40v40h-40z"/>
+    <path fill="#FFC000" d="M160 640h40v40h-40zM200 640h40v40h-40zM240 640h40v40h-40zM280 640h40v40h-40z"/>
+    <path fill="#B0761B" d="M320 640h40v40h-40zM360 640h40v40h-40z"/>
+    <path fill="currentColor" d="M400 640h40v40h-40zM440 640h40v40h-40z"/>
+    <path fill="#B0761B" d="M480 640h40v40h-40z"/>
+    <path fill="#FFC000" d="M520 640h40v40h-40zM560 640h40v40h-40zM600 640h40v40h-40z"/>
+    <path d="M640 640h40v40h-40zM680 640h40v40h-40zM0 679h40v40H0zM40 680h40v40H40zM80 680h40v40H80zM120 680h40v40h-40z"/>
+    <path fill="#FFC000" d="M160 680h40v40h-40z"/>
+    <path d="M200 680h40v40h-40z"/>
+    <path fill="#FFC000" d="M240 680h40v40h-40z"/>
+    <path d="M280 680h40v40h-40z"/>
+    <path fill="#FFC000" d="M320 680h40v40h-40z"/>
+    <path d="M360 680h40v40h-40zM400 680h40v40h-40zM440 680h40v40h-40z"/>
+    <path fill="#FFC000" d="M480 680h40v40h-40zM520 680h40v40h-40zM560 680h40v40h-40z"/>
+    <path d="M600 680h40v40h-40z"/>
+    <path fill="#FFC000" d="M640 680h40v40h-40z"/>
+    <path d="M680 680h40v40h-40z"/>
+  </g>
 </svg>

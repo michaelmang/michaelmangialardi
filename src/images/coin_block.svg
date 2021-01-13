@@ -1,303 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Coin Block</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Coin-Block">
-            <g id="Left-Coin-Block">
-                <rect id="Rectangle" fill="currentColor" x="0" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="15" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="30" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="45" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="60" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="75" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="90" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="90" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="105" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="30" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="30" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="75" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="60" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="75" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="60" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="75" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="60" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="75" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="90" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="75" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="105" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="105" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="15" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="30" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="45" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="60" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="75" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="105" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="105" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="105" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="105" y="180" width="15" height="15"></rect>
-            </g>
-            <g id="Right-Coin-Block" transform="translate(120.000000, 0.000000)">
-                <rect id="Rectangle" fill="#FF9200" x="0" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="15" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="30" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="45" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="60" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="75" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="90" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="90" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="0" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="75" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="75" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="15" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="30" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="45" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="60" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="75" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="90" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="225" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="15" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="15" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="30" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="15" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="30" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="45" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="15" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="30" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="45" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="15" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="30" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="45" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="60" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="105" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="15" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="30" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="45" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="75" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="90" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="105" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="15" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="30" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="15" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="15" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="135" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="150" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="165" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#FF9200" x="0" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="15" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="0" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="#000000" x="15" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="180" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="195" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="0" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="15" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="30" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="45" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="60" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="75" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="210" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="120" width="15" height="15"></rect>
-                <rect id="Rectangle" fill="currentColor" x="90" y="210" width="15" height="15"></rect>
-            </g>
-        </g>
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="currentColor" d="M0 0h15v15H0z"/>
+    <path fill="#000" d="M0 0h15v15H0z"/>
+    <path fill="#FF9200" d="M15 0h15v15H15zM30 0h15v15H30zM45 0h15v15H45zM60 0h15v15H60zM75 0h15v15H75zM90 0h15v15H90z"/>
+    <path fill="#FF9200" d="M90 0h15v15H90zM105 0h15v15h-15zM0 15h15v15H0z"/>
+    <path fill="#FF9200" d="M0 15h15v15H0zM0 30h15v15H0z"/>
+    <path fill="#FF9200" d="M0 30h15v15H0zM0 45h15v15H0z"/>
+    <path fill="#FF9200" d="M0 45h15v15H0zM0 60h15v15H0z"/>
+    <path fill="#FF9200" d="M0 60h15v15H0zM0 75h15v15H0z"/>
+    <path fill="#FF9200" d="M0 75h15v15H0zM0 90h15v15H0z"/>
+    <path fill="#FF9200" d="M0 90h15v15H0zM0 105h15v15H0z"/>
+    <path fill="#FF9200" d="M0 105h15v15H0zM0 120h15v15H0z"/>
+    <path fill="#FF9200" d="M0 120h15v15H0zM0 135h15v15H0z"/>
+    <path fill="#FF9200" d="M0 135h15v15H0zM0 150h15v15H0z"/>
+    <path fill="#FF9200" d="M0 150h15v15H0zM0 165h15v15H0z"/>
+    <path fill="#FF9200" d="M0 165h15v15H0zM0 180h15v15H0z"/>
+    <path fill="#FF9200" d="M0 180h15v15H0zM0 195h15v15H0z"/>
+    <path fill="#FF9200" d="M0 195h15v15H0zM0 210h15v15H0z"/>
+    <path fill="#FF9200" d="M0 210h15v15H0z"/>
+    <path fill="currentColor" d="M15 15h15v15H15zM30 15h15v15H30zM45 15h15v15H45zM60 15h15v15H60zM75 15h15v15H75zM90 15h15v15H90zM15 30h15v15H15z"/>
+    <path fill="#000" d="M30 30h15v15H30zM30 195h15v15H30z"/>
+    <path fill="currentColor" d="M45 30h15v15H45zM60 30h15v15H60zM75 30h15v15H75zM90 30h15v15H90zM15 45h15v15H15zM30 45h15v15H30zM45 45h15v15H45zM60 45h15v15H60z"/>
+    <path fill="#FF9200" d="M75 45h15v15H75z"/>
+    <path fill="currentColor" d="M15 60h15v15H15zM30 60h15v15H30zM45 60h15v15H45z"/>
+    <path fill="#FF9200" d="M60 60h15v15H60zM75 60h15v15H75z"/>
+    <path fill="currentColor" d="M15 75h15v15H15zM30 75h15v15H30zM45 75h15v15H45z"/>
+    <path fill="#FF9200" d="M60 75h15v15H60zM75 75h15v15H75z"/>
+    <path fill="currentColor" d="M15 90h15v15H15zM30 90h15v15H30zM45 90h15v15H45z"/>
+    <path fill="#FF9200" d="M60 90h15v15H60zM75 90h15v15H75z"/>
+    <path fill="currentColor" d="M105 15h15v15h-15zM105 30h15v15h-15z"/>
+    <path fill="#FF9200" d="M90 45h15v15H90z"/>
+    <path fill="#000" d="M90 60h15v15H90zM90 75h15v15H90zM90 90h15v15H90z"/>
+    <path fill="currentColor" d="M15 105h15v15H15zM30 105h15v15H30zM45 105h15v15H45zM60 105h15v15H60z"/>
+    <path fill="#000" d="M75 105h15v15H75z"/>
+    <path fill="currentColor" d="M90 105h15v15H90z"/>
+    <path fill="#000" d="M90 105h15v15H90z"/>
+    <path fill="currentColor" d="M105 105h15v15h-15zM105 90h15v15h-15z"/>
+    <path fill="#FF9200" d="M105 45h15v15h-15z"/>
+    <path fill="#000" d="M105 60h15v15h-15z"/>
+    <path fill="currentColor" d="M105 75h15v15h-15zM15 120h15v15H15zM30 120h15v15H30zM45 120h15v15H45zM60 120h15v15H60zM75 120h15v15H75zM90 120h15v15H90zM15 135h15v15H15zM30 135h15v15H30zM45 135h15v15H45zM60 135h15v15H60zM75 135h15v15H75zM90 135h15v15H90zM15 150h15v15H15zM30 150h15v15H30zM45 150h15v15H45zM60 150h15v15H60zM75 150h15v15H75zM90 150h15v15H90zM15 165h15v15H15zM30 165h15v15H30zM45 165h15v15H45zM60 165h15v15H60zM75 165h15v15H75zM90 165h15v15H90zM15 180h15v15H15zM30 180h15v15H30zM45 180h15v15H45zM60 180h15v15H60zM75 180h15v15H75zM90 180h15v15H90zM15 195h15v15H15zM45 195h15v15H45zM60 195h15v15H60zM75 195h15v15H75zM90 195h15v15H90zM15 210h15v15H15zM30 210h15v15H30zM45 210h15v15H45zM60 210h15v15H60zM75 210h15v15H75zM90 210h15v15H90z"/>
+    <path fill="currentColor" d="M90 120h15v15H90zM90 210h15v15H90zM105 150h15v15h-15zM105 195h15v15h-15zM105 210h15v15h-15z"/>
+    <path fill="#000" d="M0 225h15v15H0z"/>
+    <path fill="#000" d="M0 225h15v15H0zM15 225h15v15H15zM30 225h15v15H30zM45 225h15v15H45zM60 225h15v15H60zM75 225h15v15H75zM90 225h15v15H90z"/>
+    <path fill="#000" d="M90 225h15v15H90zM105 225h15v15h-15z"/>
+    <path fill="#FF9200" d="M105 120h15v15h-15zM105 135h15v15h-15zM105 165h15v15h-15zM105 180h15v15h-15z"/>
+    <g>
+      <path fill="#FF9200" d="M120 0h15v15h-15z"/>
+      <path fill="#FF9200" d="M120 0h15v15h-15zM135 0h15v15h-15zM150 0h15v15h-15zM165 0h15v15h-15zM180 0h15v15h-15zM195 0h15v15h-15zM210 0h15v15h-15z"/>
+      <path fill="#FF9200" d="M210 0h15v15h-15z"/>
+      <path fill="#000" d="M225 0h15v15h-15zM195 30h15v15h-15zM195 195h15v15h-15zM120 225h15v15h-15z"/>
+      <path fill="#000" d="M120 225h15v15h-15zM135 225h15v15h-15zM150 225h15v15h-15zM165 225h15v15h-15zM180 225h15v15h-15zM195 225h15v15h-15zM210 225h15v15h-15z"/>
+      <path fill="#000" d="M210 225h15v15h-15zM225 225h15v15h-15z"/>
+      <path fill="currentColor" d="M120 15h15v15h-15z"/>
+      <path fill="currentColor" d="M120 15h15v15h-15zM135 15h15v15h-15zM150 15h15v15h-15zM165 15h15v15h-15zM180 15h15v15h-15zM195 15h15v15h-15zM210 15h15v15h-15zM120 30h15v15h-15z"/>
+      <path fill="currentColor" d="M120 30h15v15h-15zM135 30h15v15h-15zM150 30h15v15h-15zM165 30h15v15h-15zM180 30h15v15h-15zM210 30h15v15h-15z"/>
+      <path fill="#FF9200" d="M120 45h15v15h-15zM135 45h15v15h-15z"/>
+      <path fill="currentColor" d="M165 45h15v15h-15zM165 60h15v15h-15zM150 45h15v15h-15zM180 45h15v15h-15zM195 45h15v15h-15zM210 45h15v15h-15z"/>
+      <path fill="#000" d="M120 60h15v15h-15z"/>
+      <path fill="#FF9200" d="M135 60h15v15h-15zM150 60h15v15h-15z"/>
+      <path fill="currentColor" d="M180 60h15v15h-15zM195 60h15v15h-15zM210 60h15v15h-15z"/>
+      <path fill="#FF9200" d="M135 75h15v15h-15zM150 75h15v15h-15z"/>
+      <path fill="#000" d="M165 75h15v15h-15z"/>
+      <path fill="currentColor" d="M195 75h15v15h-15zM210 75h15v15h-15zM120 90h15v15h-15z"/>
+      <path fill="currentColor" d="M120 90h15v15h-15zM120 75h15v15h-15z"/>
+      <path fill="#FF9200" d="M135 90h15v15h-15zM150 90h15v15h-15z"/>
+      <path fill="#000" d="M165 90h15v15h-15z"/>
+      <path fill="currentColor" d="M195 90h15v15h-15zM210 90h15v15h-15z"/>
+      <path fill="currentColor" d="M210 90h15v15h-15z"/>
+      <path fill="#000" d="M225 15h15v15h-15zM225 30h15v15h-15zM225 45h15v15h-15zM225 60h15v15h-15zM225 75h15v15h-15zM225 90h15v15h-15zM225 105h15v15h-15zM225 135h15v15h-15zM225 150h15v15h-15zM225 165h15v15h-15zM225 180h15v15h-15zM225 195h15v15h-15zM225 120h15v15h-15zM225 210h15v15h-15z"/>
+      <path fill="#FF9200" d="M120 105h15v15h-15zM135 105h15v15h-15zM150 105h15v15h-15z"/>
+      <path fill="#000" d="M165 105h15v15h-15z"/>
+      <path fill="currentColor" d="M195 105h15v15h-15zM180 75h15v15h-15zM180 90h15v15h-15zM180 105h15v15h-15zM210 105h15v15h-15z"/>
+      <path fill="currentColor" d="M210 105h15v15h-15z"/>
+      <path fill="#FF9200" d="M120 120h15v15h-15z"/>
+      <path fill="#000" d="M135 120h15v15h-15zM150 120h15v15h-15z"/>
+      <path fill="currentColor" d="M180 120h15v15h-15zM165 120h15v15h-15zM195 120h15v15h-15zM210 120h15v15h-15z"/>
+      <path fill="#FF9200" d="M120 135h15v15h-15z"/>
+      <path fill="#000" d="M135 135h15v15h-15z"/>
+      <path fill="currentColor" d="M165 135h15v15h-15zM180 135h15v15h-15zM195 135h15v15h-15zM210 135h15v15h-15z"/>
+      <path fill="#000" d="M120 150h15v15h-15zM135 150h15v15h-15z"/>
+      <path fill="currentColor" d="M165 150h15v15h-15zM150 135h15v15h-15zM150 150h15v15h-15zM180 150h15v15h-15zM195 150h15v15h-15zM210 150h15v15h-15z"/>
+      <path fill="#FF9200" d="M120 165h15v15h-15z"/>
+      <path fill="currentColor" d="M150 165h15v15h-15zM135 165h15v15h-15zM165 165h15v15h-15zM180 165h15v15h-15zM195 165h15v15h-15zM210 165h15v15h-15z"/>
+      <path fill="#FF9200" d="M120 180h15v15h-15z"/>
+      <path fill="#000" d="M135 180h15v15h-15z"/>
+      <path fill="currentColor" d="M165 180h15v15h-15zM180 180h15v15h-15zM195 180h15v15h-15zM210 180h15v15h-15z"/>
+      <path fill="#000" d="M120 195h15v15h-15zM135 195h15v15h-15z"/>
+      <path fill="currentColor" d="M165 195h15v15h-15zM150 180h15v15h-15zM150 195h15v15h-15zM180 195h15v15h-15zM210 195h15v15h-15zM120 210h15v15h-15z"/>
+      <path fill="currentColor" d="M120 210h15v15h-15zM135 210h15v15h-15zM150 210h15v15h-15zM165 210h15v15h-15zM180 210h15v15h-15zM195 210h15v15h-15zM210 210h15v15h-15zM210 120h15v15h-15z"/>
+      <path fill="currentColor" d="M210 210h15v15h-15z"/>
     </g>
+  </g>
 </svg>

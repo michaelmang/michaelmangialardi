@@ -1,160 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="168px" height="222px" viewBox="0 0 168 222" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Group</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Mario" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group">
-            <rect id="Rectangle" fill="#FAFAFA" x="42" y="0" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="56" y="0" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="70" y="0" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="84" y="0" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="98" y="0" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="28" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="42" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="56" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="70" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="84" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="98" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="112" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="126" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="140" y="14" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="28" y="28" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="42" y="28" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="56" y="28" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="70" y="28" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="84" y="28" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#000000" x="98" y="28" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="112" y="28" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="14" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="28" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="42" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="56" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="70" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="84" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#000000" x="98" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="112" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="126" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="140" y="42" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="14" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="28" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="42" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="56" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="70" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="84" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="98" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#000000" x="112" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="126" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="140" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="154" y="56" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="14" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="28" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="42" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="56" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="70" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="84" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#000000" x="98" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#000000" x="112" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#000000" x="126" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#000000" x="140" y="70" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="42" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="56" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="70" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="84" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="98" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="112" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="126" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="140" y="84" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="28" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="42" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="56" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="70" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="84" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="98" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="112" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="126" y="98" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="14" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="28" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="42" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="56" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="70" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="84" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="98" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="112" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="126" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="140" y="112" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="0" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="14" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="28" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="42" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="56" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="70" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="84" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="98" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="112" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="126" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="140" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="154" y="126" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="0" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="14" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FAFAFA" x="28" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="42" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFFF00" x="56" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="70" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="84" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFFF00" x="98" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="112" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="126" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="140" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="154" y="140" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="0" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="14" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="28" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="42" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="56" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="70" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="84" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="98" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="112" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="126" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="140" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="154" y="154" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="0" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="14" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="28" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="42" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="56" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="70" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="84" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="98" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="112" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="126" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="140" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FFBC7B" x="154" y="166" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="28" y="180" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="42" y="180" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="56" y="180" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="98" y="180" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="112" y="180" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#FF0000" x="126" y="180" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="14" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="28" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="42" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="56" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="98" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="112" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="126" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="140" y="194" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="0" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="14" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="28" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="42" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="56" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="98" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="112" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="126" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="140" y="208" width="14" height="14"></rect>
-            <rect id="Rectangle" fill="#845C00" x="154" y="208" width="14" height="14"></rect>
-        </g>
-    </g>
+<svg width="168" height="222" viewBox="0 0 168 222" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#FAFAFA" d="M42 0h14v14H42zM56 0h14v14H56zM70 0h14v14H70zM84 0h14v14H84zM98 0h14v14H98zM28 14h14v14H28zM42 14h14v14H42zM56 14h14v14H56zM70 14h14v14H70zM84 14h14v14H84zM98 14h14v14H98zM112 14h14v14h-14zM126 14h14v14h-14zM140 14h14v14h-14z"/>
+    <path fill="#845C00" d="M28 28h14v14H28zM42 28h14v14H42zM56 28h14v14H56z"/>
+    <path fill="#FFBC7B" d="M70 28h14v14H70zM84 28h14v14H84z"/>
+    <path fill="#000" d="M98 28h14v14H98z"/>
+    <path fill="#FFBC7B" d="M112 28h14v14h-14z"/>
+    <path fill="#845C00" d="M14 42h14v14H14z"/>
+    <path fill="#FFBC7B" d="M28 42h14v14H28z"/>
+    <path fill="#845C00" d="M42 42h14v14H42z"/>
+    <path fill="#FFBC7B" d="M56 42h14v14H56zM70 42h14v14H70zM84 42h14v14H84z"/>
+    <path fill="#000" d="M98 42h14v14H98z"/>
+    <path fill="#FFBC7B" d="M112 42h14v14h-14zM126 42h14v14h-14zM140 42h14v14h-14z"/>
+    <path fill="#845C00" d="M14 56h14v14H14z"/>
+    <path fill="#FFBC7B" d="M28 56h14v14H28z"/>
+    <path fill="#845C00" d="M42 56h14v14H42zM56 56h14v14H56z"/>
+    <path fill="#FFBC7B" d="M70 56h14v14H70zM84 56h14v14H84zM98 56h14v14H98z"/>
+    <path fill="#000" d="M112 56h14v14h-14z"/>
+    <path fill="#FFBC7B" d="M126 56h14v14h-14zM140 56h14v14h-14zM154 56h14v14h-14z"/>
+    <path fill="#845C00" d="M14 70h14v14H14zM28 70h14v14H28z"/>
+    <path fill="#FFBC7B" d="M42 70h14v14H42zM56 70h14v14H56zM70 70h14v14H70zM84 70h14v14H84z"/>
+    <path fill="#000" d="M98 70h14v14H98zM112 70h14v14h-14zM126 70h14v14h-14zM140 70h14v14h-14z"/>
+    <path fill="#FFBC7B" d="M42 84h14v14H42zM56 84h14v14H56zM70 84h14v14H70zM84 84h14v14H84zM98 84h14v14H98zM112 84h14v14h-14zM126 84h14v14h-14zM140 84h14v14h-14z"/>
+    <path fill="#FAFAFA" d="M28 98h14v14H28zM42 98h14v14H42z"/>
+    <path fill="red" d="M56 98h14v14H56z"/>
+    <path fill="#FAFAFA" d="M70 98h14v14H70zM84 98h14v14H84z"/>
+    <path fill="red" d="M98 98h14v14H98z"/>
+    <path fill="#FAFAFA" d="M112 98h14v14h-14zM126 98h14v14h-14zM14 112h14v14H14zM28 112h14v14H28zM42 112h14v14H42z"/>
+    <path fill="red" d="M56 112h14v14H56z"/>
+    <path fill="#FAFAFA" d="M70 112h14v14H70zM84 112h14v14H84z"/>
+    <path fill="red" d="M98 112h14v14H98z"/>
+    <path fill="#FAFAFA" d="M112 112h14v14h-14zM126 112h14v14h-14zM140 112h14v14h-14zM0 126h14v14H0zM14 126h14v14H14zM28 126h14v14H28zM42 126h14v14H42z"/>
+    <path fill="red" d="M56 126h14v14H56zM70 126h14v14H70zM84 126h14v14H84zM98 126h14v14H98z"/>
+    <path fill="#FAFAFA" d="M112 126h14v14h-14zM126 126h14v14h-14zM140 126h14v14h-14zM154 126h14v14h-14z"/>
+    <path fill="#FFBC7B" d="M0 140h14v14H0zM14 140h14v14H14z"/>
+    <path fill="#FAFAFA" d="M28 140h14v14H28z"/>
+    <path fill="red" d="M42 140h14v14H42z"/>
+    <path fill="#FF0" d="M56 140h14v14H56z"/>
+    <path fill="red" d="M70 140h14v14H70zM84 140h14v14H84z"/>
+    <path fill="#FF0" d="M98 140h14v14H98z"/>
+    <path fill="red" d="M112 140h14v14h-14zM126 140h14v14h-14z"/>
+    <path fill="#FFBC7B" d="M140 140h14v14h-14zM154 140h14v14h-14zM0 154h14v14H0zM14 154h14v14H14zM28 154h14v14H28z"/>
+    <path fill="red" d="M42 154h14v14H42zM56 154h14v14H56zM70 154h14v14H70zM84 154h14v14H84zM98 154h14v14H98zM112 154h14v14h-14z"/>
+    <path fill="#FFBC7B" d="M126 154h14v14h-14zM140 154h14v14h-14zM154 154h14v14h-14zM0 166h14v14H0zM14 166h14v14H14z"/>
+    <path fill="red" d="M28 166h14v14H28zM42 166h14v14H42zM56 166h14v14H56zM70 166h14v14H70zM84 166h14v14H84zM98 166h14v14H98zM112 166h14v14h-14zM126 166h14v14h-14z"/>
+    <path fill="#FFBC7B" d="M140 166h14v14h-14zM154 166h14v14h-14z"/>
+    <path fill="red" d="M28 180h14v14H28zM42 180h14v14H42zM56 180h14v14H56zM98 180h14v14H98zM112 180h14v14h-14zM126 180h14v14h-14z"/>
+    <path fill="#845C00" d="M14 194h14v14H14zM28 194h14v14H28zM42 194h14v14H42zM56 194h14v14H56zM98 194h14v14H98zM112 194h14v14h-14zM126 194h14v14h-14zM140 194h14v14h-14zM0 208h14v14H0zM14 208h14v14H14zM28 208h14v14H28zM42 208h14v14H42zM56 208h14v14H56zM98 208h14v14H98zM112 208h14v14h-14zM126 208h14v14h-14zM140 208h14v14h-14zM154 208h14v14h-14z"/>
+  </g>
 </svg>
