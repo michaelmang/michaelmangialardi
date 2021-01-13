@@ -1,10 +1,12 @@
 import Layout from "../components/layout"
 import Loading from "../components/loading"
+import SEO from "../components/seo"
 import ThemeToggle from "../components/theme-toggle"
 
 export default function Lost() {
   return (
     <Layout>
+      <SEO title="Not Found" />
       <div className="flex flex-col h-full pt-20">
         <h1 className="text-3xl text-dark dark:text-light font-black leading-10">
           Whoops! This page doesn't exist or got burnt

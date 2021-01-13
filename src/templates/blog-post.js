@@ -9,7 +9,7 @@ import { useToggle } from "react-use";
 import Bio from "../components/bio"
 import ExternalLink from "../components/external-link"
 import Layout from "../components/layout"
-import Loading from "../components/loading"
+import SEO from "../components/seo"
 import ThemeToggle from "../components/theme-toggle"
 
 function format(defaultHtml) {
@@ -62,6 +62,7 @@ export default function BlogPost({ data }) {
 
   return (
     <Layout>
+      <SEO description={post.excerpt || defaultExcerpt} title={post.title} />
       <div className="h-full w-full flex flex-col items-center pt-20">
         <h3 className="text-background-light dark:text-background text-xl">{startcase(post.tags.find(tag => tag !== "blog").toLowerCase())}</h3>
         <h1 className="my-6 text-4xl text-dark dark:text-light font-black leading-10">

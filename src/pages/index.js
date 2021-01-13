@@ -16,13 +16,15 @@ import Heading from "../components/heading"
 import Icon from "../components/icon"
 import Layout from "../components/layout"
 import Pill from "../components/pill"
-import Posts from "../components/posts"
-import ThemeToggle from "../components/theme-toggle"
 import Pipe from "../images/pipe.svg"
+import Posts from "../components/posts"
+import SEO from "../components/seo"
+import ThemeToggle from "../components/theme-toggle"
 
 export default function Home({ data }) {
   return (
     <Layout>
+      <SEO title="Home" />
       <div className="h-full w-full flex flex-col">
         <div className="relative rounded-sm flex flex-row shadow-2xl bg-gradient-to-r from-background to-background-light justify-around items-center px-4 py-6 md:px-10 md:py-0">
           <div className="h-full hidden md:w-1/4 md:block">

@@ -5,6 +5,7 @@ import { useState } from "react"
 import Layout from "../components/layout"
 import Pill from "../components/pill"
 import Preview from "../components/preview"
+import SEO from "../components/seo"
 import ThemeToggle from "../components/theme-toggle"
 
 function uniq(list) {
@@ -20,6 +21,7 @@ export default function Blog({ data }) {
 
   return (
     <Layout>
+      <SEO title="Blog" />
       <div className="h-full w-full flex flex-col">
         {!!categories.length && (
           <div className="flex flex-col my-6">
