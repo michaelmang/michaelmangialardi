@@ -7,6 +7,7 @@ import { Fragment, useEffect, useRef } from "react"
 import reactElementToJSXString from "react-element-to-jsx-string"
 
 import Bio from "../components/bio"
+import Cta from "../components/cta"
 import ExternalLink from "../components/external-link"
 import FireCta from "../components/fire-cta"
 import Layout from "../components/layout"
@@ -135,6 +136,7 @@ export default function BlogPost({ data }) {
                 Share On Facebook
               </ExternalLink>
             </FireCta>
+            <Cta />
             <hr className="border-background dark:border-background-light border-t-2 w-full max-w-screen-lg my-6" />
             <Bio
               className="max-w-screen-lg mt-3"

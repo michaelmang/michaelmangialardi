@@ -96,3 +96,13 @@ main > p > code.inline-code {
   @apply text-dark;
   @apply rounded-sm;
 }
+
+.hover {
+  animation: float 1s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes float {
+  to {
+    transform: translate(-0.5rem, 0.25rem);
+  }
+}
