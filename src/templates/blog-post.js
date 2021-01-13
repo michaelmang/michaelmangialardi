@@ -1,23 +1,26 @@
 import { graphql } from "gatsby"
-import 'highlight.js/styles/dracula.css'
-import hljs from 'highlight.js'
+import "highlight.js/styles/dracula.css"
+import hljs from "highlight.js"
+import truncate from "lodash.truncate"
 import startcase from "lodash.startcase"
-import { Fragment, useEffect, useRef } from "react";
-import reactElementToJSXString from 'react-element-to-jsx-string';
-import { useToggle } from "react-use";
+import { Fragment, useEffect, useRef } from "react"
+import reactElementToJSXString from "react-element-to-jsx-string"
 
 import Bio from "../components/bio"
 import ExternalLink from "../components/external-link"
+import FireCta from "../components/fire-cta"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ThemeToggle from "../components/theme-toggle"
+import Luigi from "../images/luigi.svg"
+import Mario from "../images/mario.svg"
 
 function format(defaultHtml) {
   let html = defaultHtml
 
   const matchInlineCode = /`<*\w+ *\/*>*`/gm
   const inlineCode = html.match(matchInlineCode)
-  
+
   if (inlineCode) {
     const innerInlineCode = inlineCode[0].replace(/`/gm, "")
     const transformedInlineCode = reactElementToJSXString(
@@ -48,23 +51,27 @@ export default function BlogPost({ data }) {
 
   useEffect(() => {
     if (contentRef) {
-      const nodes = contentRef.current.querySelectorAll('pre')
-      nodes.forEach((node) => {
-        hljs.highlightBlock(node);
+      const nodes = contentRef.current.querySelectorAll("pre")
+      nodes.forEach(node => {
+        hljs.highlightBlock(node)
       })
     }
   }, [contentRef])
-  
+
   const author = data.graphCmsAuthor
   const post = data.graphCmsPost
+  const site = data.site.siteMetadata
 
-  const [isDiscussHovered, toggleDiscussHovered] = useToggle(false)
+  const maxExcerptChars = 160
+  const defaultExcerpt = truncate(post.content.text, { length: maxExcerptChars })
 
   return (
     <Layout>
       <SEO description={post.excerpt || defaultExcerpt} title={post.title} />
       <div className="h-full w-full flex flex-col items-center pt-20">
-        <h3 className="text-background-light dark:text-background text-xl">{startcase(post.tags.find(tag => tag !== "blog").toLowerCase())}</h3>
+        <h3 className="text-background-light dark:text-background text-xl">
+          {startcase(post.tags.find(tag => tag !== "blog").toLowerCase())}
+        </h3>
         <h1 className="my-6 text-4xl text-dark dark:text-light font-black leading-10">
           {post.title}
         </h1>
@@ -74,29 +81,67 @@ export default function BlogPost({ data }) {
         <h5 className="mb-10 md:mb-20 text-dark dark:text-light opacity-75 font-bold text-xs tracking-wider">
           Last Updated: {post.date}
         </h5>
-        <main className="max-w-screen-sm" dangerouslySetInnerHTML={{ __html: format(post.content.html) }} ref={contentRef} />
+        <main
+          className="max-w-screen-sm"
+          dangerouslySetInnerHTML={{ __html: format(post.content.html) }}
+          ref={contentRef}
+        />
       </div>
       <div className="flex flex-col items-center mt-10">
         {post.tags.includes("blog") && (
           <Fragment>
-            <div className="flex flex-row items-center">
-              <Loading loop={isDiscussHovered} scale={1/8} />
+            <FireCta>
               <ExternalLink
                 className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
-                onMouseEnter={() => {
-                  toggleDiscussHovered()
-                }}
-                onMouseLeave={() => {
-                  toggleDiscussHovered()
-                }}
-                to={"https://mobile.twitter.com/search?q=" + encodeURIComponent(`${window.location.origin}/blog/${post.slug}`)}
+                to={
+                  "https://mobile.twitter.com/search?q=" +
+                  encodeURIComponent(
+                    `${site.url}/blog/${post.slug}`
+                  )
+                }
               >
                 Discuss On Twitter
               </ExternalLink>
-              <Loading loop={isDiscussHovered} scale={1/8} reverse />
-            </div>
-            <hr className="border-accent dark:border-background border-t-2 w-full max-w-screen-lg my-6" />
-            <Bio className="max-w-screen-lg mt-3" fluid={data.avatar.childImageSharp.fluid} name={author.name}>{author.biography}</Bio>
+            </FireCta>
+            <FireCta character={Mario}>
+              <ExternalLink
+                className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
+                to={
+                  "https://twitter.com/intent/tweet?url=" +
+                  encodeURIComponent(
+                    `${site.url}/blog/${post.slug} \n\n`
+                  ) +
+                  "&via=michaelmangial1" +
+                  "&text=" +
+                  encodeURIComponent(
+                    `${post.title} by ${author.name} \n\n ${post.excerpt || defaultExcerpt} \n\n`
+                  )
+                }
+              >
+                Share On Twitter
+              </ExternalLink>
+            </FireCta>
+            <FireCta character={Luigi}>
+              <ExternalLink
+                className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
+                to={
+                  "https://www.facebook.com/sharer/sharer.php?u=" +
+                  encodeURIComponent(
+                    `${site.url}/blog/${post.slug}`
+                  )
+                }
+              >
+                Share On Facebook
+              </ExternalLink>
+            </FireCta>
+            <hr className="border-background dark:border-background-light border-t-2 w-full max-w-screen-lg my-6" />
+            <Bio
+              className="max-w-screen-lg mt-3"
+              fluid={data.avatar.childImageSharp.fluid}
+              name={author.name}
+            >
+              {author.biography}
+            </Bio>
           </Fragment>
         )}
       </div>
@@ -111,6 +156,7 @@ export const query = graphql`
     graphCmsPost(slug: { eq: $slug }) {
       content {
         html
+        text
       }
       date
       id
@@ -121,7 +167,7 @@ export const query = graphql`
       subtitle
       excerpt
     }
-    graphCmsAuthor(name: {eq: "Michael Mangialardi"}) {
+    graphCmsAuthor(name: { eq: "Michael Mangialardi" }) {
       biography
       name
     }
@@ -132,6 +178,11 @@ export const query = graphql`
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
+      }
+    }
+    site {
+      siteMetadata {
+        url
       }
     }
   }

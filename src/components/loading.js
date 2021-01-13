@@ -8,7 +8,7 @@ import Flame from "../images/flame.svg"
 
 const noop = () => {}
 
-export default function Loading({ loop = false, reverse = false, scale = 1 }) {
+export default function Loading({ character: Character = Bowser, loop = false, reverse = false, scale = 1 }) {
   const [isAnimating, toggleAnimation] = useToggle(true)
 
   const springs = {
@@ -19,8 +19,8 @@ export default function Loading({ loop = false, reverse = false, scale = 1 }) {
     ),
   }
 
-  const bowser = (
-    <Bowser
+  const character = (
+    <Character
       className={`h-${96 * scale} w-${96 * scale} m${reverse ? "l" : "r"}-${8 * scale} text-sun`}
       style={{ transform: `scaleX(${reverse ? -1 : 1})` }}
     />
@@ -48,8 +48,8 @@ export default function Loading({ loop = false, reverse = false, scale = 1 }) {
   return (
     <Fragment>
       {reverse && flame}
-      {reverse && bowser}
-      {!reverse && bowser}
+      {reverse && character}
+      {!reverse && character}
       {!reverse && flame}
     </Fragment>
   )
