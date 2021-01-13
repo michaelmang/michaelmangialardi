@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.6",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
@@ -21,6 +22,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@jlengstorf/get-share-image": "^0.8.0",
     "autoprefixer": "^10.2.0",
+    "cross-fetch": "^3.0.6",
     "gatsby": "^2.30.1",
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-postcss": "^3.5.0",
@@ -55,5 +57,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "graphql": "14.7.0"
   }
 }
