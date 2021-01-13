@@ -97,7 +97,7 @@ main > p > code.inline-code {
   @apply rounded-sm;
 }
 
-.hover {
+.float {
   animation: float 1s infinite alternate-reverse ease-in-out;
 }
 
