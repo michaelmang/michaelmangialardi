@@ -19,6 +19,7 @@ module.exports = {
   variants: {
     extend: {
       animation: ['hover', 'focus'],
+      borderColor: ['active'],
       transform: ['hover', 'focus'],
       translate: ['active'],
     },

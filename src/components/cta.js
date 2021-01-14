@@ -1,6 +1,7 @@
 import { useMutation } from "@apollo/client"
 import gql from "graphql-tag"
 import { Fragment, useState } from "react"
+import { useToggle } from "react-use"
 
 import Lakitu from "../images/lakitu_cta.svg"
 import LakituThanks from "../images/lakitu_cta_thanks.svg"
@@ -47,8 +48,11 @@ function Error({ children }) {
 
 export default function Cta({ className }) {
   const [firstName, setFirstName] = useState("")
-  const [email, setEmail] = useState("")
+  const [isNameFocused, toggleNameFocused] = useToggle()
   const [badName, setBadName] = useState("")
+  
+  const [email, setEmail] = useState("")
+  const [isEmailFocused, toggleEmailFocused] = useToggle()
   const [missingEmail, setMissingEmail] = useState("")
   const [badEmail, setBadEmail] = useState("")
 
@@ -134,12 +138,14 @@ export default function Cta({ className }) {
 
             <div className="flex flex-row mt-6 md:mt-12 h-32 w-full py-1">
               <div className="flex flex-col mr-6 w-1/4">
-                <label className="text-dark dark:text-light text-sm">
+                <label className={`text-sm ${badName ? "text-cta" : isNameFocused ? "text-background dark:text-background-light mb-2" : "text-dark dark:text-light"}`}>
                   First Name
                 </label>
                 <input
-                  className={`text-dark dark:text-light bg-light border-b-2 dark:bg-dark outline-none bg-transparent ${badName ? "border-cta" : "border-dark dark:border-light"}`}
+                  className={`text-dark dark:text-light bg-light border-b-2 dark:bg-dark outline-none bg-transparent ${badName ? "border-cta" : isNameFocused ? "border-background dark:border-background-light" : "border-dark dark:border-light"}`}
+                  onBlur={toggleNameFocused}
                   onChange={updateFirstName}
+                  onFocus={toggleNameFocused}
                   type="text"
                   value={firstName}
                 />
@@ -147,10 +153,12 @@ export default function Cta({ className }) {
               </div>
 
               <div className="flex flex-col mr-6 w-1/4">
-                <label className="text-dark dark:text-light text-sm">Email</label>
+                <label className={`text-sm ${missingEmail || badEmail ? "text-cta" : isEmailFocused ? "text-background dark:text-background-light mb-2" : "text-dark dark:text-light"}`}>Email</label>
                 <input
-                  className={`text-dark dark:text-light bg-light border-b-2 dark:bg-dark outline-none bg-transparent ${missingEmail || badEmail ? "border-cta" : "border-dark dark:border-light"}`}
+                  className={`text-dark dark:text-light bg-light border-b-2 dark:bg-dark outline-none bg-transparent ${missingEmail || badEmail ? "border-cta" : isEmailFocused ? "border-background dark:border-background-light" : "border-dark dark:border-light"}`}
+                  onBlur={toggleEmailFocused}
                   onChange={updateEmail}
+                  onFocus={toggleEmailFocused}
                   type="email"
                   value={email}
                 />
