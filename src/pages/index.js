@@ -194,6 +194,7 @@ export const query = graphql`
           title
           content {
             html
+            text
           }
           subtitle
           tags
