@@ -116,6 +116,7 @@ export default function Home({ data }) {
             <Heading>Technical Skills</Heading>
             <div className="flex flex-row flex-wrap">
               <Pill>UI Development</Pill>
+              <Pill>Serverless</Pill>
               <Pill>Unit Testing</Pill>
               <Pill>End-to-End Testing</Pill>
               <Pill>AuthN & AuthZ</Pill>
@@ -151,6 +152,8 @@ export default function Home({ data }) {
               <Pill>Elixir</Pill>
               <Pill>.NET Core</Pill>
               <Pill>Azure</Pill>
+              <Pill>Service Bus</Pill>
+              <Pill>Netlify</Pill>
               <Pill>TeamCity</Pill>
               <Pill>Git</Pill>
             </div>
