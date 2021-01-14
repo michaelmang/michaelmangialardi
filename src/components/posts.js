@@ -9,7 +9,7 @@ export default function Posts({ className, heading, posts, subpath }) {
     <Fragment>
       <Heading className={className}>{heading}</Heading>
       {posts.edges.filter(({ node }) => node.tags.includes(kebabcase(heading))).map(({ node }) => (
-        <Preview key={node.slug} slug={`/${subpath}/${node.slug}`} subtitle={node.subtitle} title={node.title}>
+        <Preview key={node.slug} slug={`${subpath}/${node.slug}`} subtitle={node.subtitle} title={node.title}>
           <div dangerouslySetInnerHTML={{ __html: node.content.html }} />
         </Preview>
       ))}
