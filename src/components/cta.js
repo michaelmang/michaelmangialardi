@@ -136,7 +136,7 @@ export default function Cta({ className }) {
               join my newsletter.
             </p>
 
-            <div className="flex flex-row mt-6 md:mt-12 h-32 w-full py-1">
+            <div className="flex flex-row md:items-center mt-6 md:mt-12 h-32 w-full py-1">
               <div className="flex flex-col mr-6 w-1/4">
                 <label className={`text-sm ${badName ? "text-cta" : isNameFocused ? "text-background dark:text-background-light mb-2" : "text-dark dark:text-light"}`}>
                   First Name
