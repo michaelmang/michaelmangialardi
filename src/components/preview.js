@@ -1,5 +1,8 @@
 import { Link } from "gatsby"
+import { animated, useSpring } from "react-spring"
 import { useHover } from "react-use"
+
+import fadeIn from "../animations/fade-in"
 
 export default function Preview({
   children,
@@ -26,8 +29,10 @@ export default function Preview({
 
   const [hoverableTitle, isTitleHovered] = useHover(title)
 
+  const spring = useSpring(fadeIn())
+
   return (
-    <div {...rest} className={`flex flex-col mb-6 ${className}`}>
+    <animated.div {...rest} className={`flex flex-col mb-6 ${className}`} style={spring}>
       {hoverableTitle}
       {subtitle && (
         <h4 className="text-dark dark:text-light opacity-75 text-sm md:text-base font-bold">
@@ -45,6 +50,6 @@ export default function Preview({
       >
         {defaultCta}
       </Link>
-    </div>
+    </animated.div>
   )
 }
