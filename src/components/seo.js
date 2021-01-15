@@ -1,4 +1,4 @@
-import getShareImage from '@jlengstorf/get-share-image'
+import getShareImage from "@jlengstorf/get-share-image"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
@@ -19,14 +19,14 @@ export default function SEO({ tagline, title, description, image, article }) {
   const socialImage = getShareImage({
     title: title || defaultTitle,
     tagline: tagline || defaultDescription,
-    cloudName: 'dpzpn0xkz',
-    imagePublicID: 'michael_mangialardi/social_card',
-    titleFont: 'futura',
-    taglineFont: 'futura',
+    cloudName: "dpzpn0xkz",
+    imagePublicID: "michael_mangialardi/social_card",
+    titleFont: "futura",
+    taglineFont: "futura",
     taglineTopOffset: 300,
-    titleColor: 'FDFCDC',
-    taglineColor: 'FDFCDC',
-    titleExtraConfig: '_bold',
+    titleColor: "FDFCDC",
+    taglineColor: "FDFCDC",
+    titleExtraConfig: "_bold",
     titleBottomOffset: 399,
   })
 

@@ -65,7 +65,9 @@ export default function BlogPost({ data }) {
   const site = data.site.siteMetadata
 
   const maxExcerptChars = 160
-  const defaultExcerpt = truncate(post.content.text.replace(/\\n/gm, " "), { length: maxExcerptChars })
+  const defaultExcerpt = truncate(post.content.text.replace(/\\n/gm, " "), {
+    length: maxExcerptChars,
+  })
 
   return (
     <Layout>
@@ -97,9 +99,7 @@ export default function BlogPost({ data }) {
                 className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
                 to={
                   "https://mobile.twitter.com/search?q=" +
-                  encodeURIComponent(
-                    `${site.url}/blog/${post.slug}`
-                  )
+                  encodeURIComponent(`${site.url}/blog/${post.slug}`)
                 }
               >
                 Discuss On Twitter
@@ -110,13 +110,13 @@ export default function BlogPost({ data }) {
                 className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
                 to={
                   "https://twitter.com/intent/tweet?url=" +
-                  encodeURIComponent(
-                    `${site.url}/blog/${post.slug} \n\n`
-                  ) +
+                  encodeURIComponent(`${site.url}/blog/${post.slug} \n\n`) +
                   "&via=michaelmangial1" +
                   "&text=" +
                   encodeURIComponent(
-                    `${post.title} by ${author.name} \n\n ${post.excerpt || defaultExcerpt} \n\n`
+                    `${post.title} by ${author.name} \n\n ${
+                      post.excerpt || defaultExcerpt
+                    } \n\n`
                   )
                 }
               >
@@ -128,9 +128,7 @@ export default function BlogPost({ data }) {
                 className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
                 to={
                   "https://www.facebook.com/sharer/sharer.php?u=" +
-                  encodeURIComponent(
-                    `${site.url}/blog/${post.slug}`
-                  )
+                  encodeURIComponent(`${site.url}/blog/${post.slug}`)
                 }
               >
                 Share On Facebook

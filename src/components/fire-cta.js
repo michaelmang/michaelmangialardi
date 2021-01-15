@@ -5,7 +5,7 @@ import Character from "./loading"
 
 export default function FireCta({ children, ...rest }) {
   const [isDiscussHovered, toggleDiscussHovered] = useToggle(false)
-  
+
   return (
     <div className="flex flex-row items-center my-2">
       <Character loop={isDiscussHovered} scale={1 / 8} {...rest} />

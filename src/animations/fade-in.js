@@ -1,3 +1,3 @@
 export default function fadeIn(props) {
-  return ({ ...props, opacity: 1, from: { opacity: 0 } });
+  return { ...props, opacity: 1, from: { opacity: 0 } }
 }

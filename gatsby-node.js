@@ -1,9 +1,9 @@
-const path = require('path')
+const path = require("path")
 
 exports.createPages = async ({ graphql, actions }) => {
   const blogPosts = await graphql(`
     query GetBlogPosts {
-      allGraphCmsPost(filter: {tags: {in: ["blog"]}}) {
+      allGraphCmsPost(filter: { tags: { in: ["blog"] } }) {
         edges {
           node {
             slug
@@ -12,7 +12,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  
+
   blogPosts.data.allGraphCmsPost.edges.forEach(({ node }) => {
     actions.createPage({
       path: `blog/${node.slug}`,
@@ -25,7 +25,9 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const workPosts = await graphql(`
     query GetWorkPosts {
-      allGraphCmsPost(filter: {tags: {in: ["side-projects", "professional-experience"]}}) {
+      allGraphCmsPost(
+        filter: { tags: { in: ["side-projects", "professional-experience"] } }
+      ) {
         edges {
           node {
             slug

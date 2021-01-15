@@ -8,7 +8,7 @@ const path = require("path")
 
 const tailwindConfig = require("./tailwind.config.js")
 
-const dotenv = require('dotenv')
+const dotenv = require("dotenv")
 dotenv.config({
   path: `.env.${process.env.NODE_ENV}`,
 })
@@ -18,7 +18,8 @@ module.exports = {
   siteMetadata: {
     title: "Michael Mangialardi",
     titleTemplate: "%s · Michael Mangialardi",
-    description: "Web development tutorials from an impostor syndrome survivor. Learn React, JavaScript, CSS, and more!",
+    description:
+      "Web development tutorials from an impostor syndrome survivor. Learn React, JavaScript, CSS, and more!",
     url: "https://michaelmang.dev", // No trailing slash allowed!
     image: "/card.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@michaelmangial1",
@@ -38,30 +39,30 @@ module.exports = {
     },
     "gatsby-plugin-provide-react",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'images',
-        path: path.join(__dirname, 'src', 'images'),
+        name: "images",
+        path: path.join(__dirname, "src", "images"),
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
-      resolve: 'gatsby-source-graphcms',
-        options: {
-          // Your GraphCMS API endpoint. Available from your project settings.
-          endpoint: process.env.GRAPHCMS_ENDPOINT,
-          // A PAT (Permanent Auth Token) for your project. Required if your project is not available publicly, or you want to scope access to a specific content stage (i.e. draft content).
-          token: process.env.GRAPHCMS_TOKEN,
-        },
+      resolve: "gatsby-source-graphcms",
+      options: {
+        // Your GraphCMS API endpoint. Available from your project settings.
+        endpoint: process.env.GRAPHCMS_ENDPOINT,
+        // A PAT (Permanent Auth Token) for your project. Required if your project is not available publicly, or you want to scope access to a specific content stage (i.e. draft content).
+        token: process.env.GRAPHCMS_TOKEN,
+      },
     },
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /images/
-        }
-      }
+          include: /images/,
+        },
+      },
     },
   ],
 }

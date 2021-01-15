@@ -4,7 +4,10 @@ export default function Footer() {
   return (
     <footer className="w-full flex flex-row mt-20">
       <div className="flex flex-col w-3/4">
-        <Link className="text-cta font-bold text-base md:text-xl tracking-wider" to="/">
+        <Link
+          className="text-cta font-bold text-base md:text-xl tracking-wider"
+          to="/"
+        >
           Michael Mangialardi
         </Link>
         <div className="font-black text-xs md:text-base text-dark opacity-75 dark:text-light mb-4 md:mb-8">
@@ -16,16 +19,28 @@ export default function Footer() {
       </div>
       <div className="flex flex-col w-1/4 items-end">
         <div className="flex flex-row">
-          <Link className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6" to="/blog">
+          <Link
+            className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
+            to="/blog"
+          >
             Blog
           </Link>
-          <Link className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6" to="/">
+          <Link
+            className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
+            to="/"
+          >
             Work
           </Link>
-          <Link className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6" to="/newsletter">
+          <Link
+            className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
+            to="/newsletter"
+          >
             Newsletter
           </Link>
-          <a className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider" href="mailto:mikemangialardi94@gmail.com">
+          <a
+            className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider"
+            href="mailto:mikemangialardi94@gmail.com"
+          >
             Contact
           </a>
         </div>

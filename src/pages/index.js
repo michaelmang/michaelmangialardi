@@ -35,15 +35,35 @@ export default function Home({ data }) {
               Hi, I'm Michael Mangialardi 👋
             </h1>
             <h2 className="mt-4 md:mt-8 text-xl md:text-3xl text-light font-black leading-8 md:leading-10">
-              I'm a <WindupChildren><Pace ms={125}><span className="text-cta">UI developer</span></Pace></WindupChildren> at{" "}
+              I'm a{" "}
+              <WindupChildren>
+                <Pace ms={125}>
+                  <span className="text-cta">UI developer</span>
+                </Pace>
+              </WindupChildren>{" "}
+              at{" "}
               <ExternalLink to="https://www.rackspace.com/">
                 Rackspace Technology{" "}
               </ExternalLink>
-              specializing in <WindupChildren><Pace ms={125}><span className="text-cta">React</span></Pace></WindupChildren>,
-              fluent across the{" "}
-              <WindupChildren><Pace ms={125}><span className="text-cta">full stack</span></Pace></WindupChildren>, and
-              experienced in{" "}
-              <WindupChildren><Pace ms={125}><span className="text-cta">UI/UX design</span></Pace></WindupChildren>.
+              specializing in{" "}
+              <WindupChildren>
+                <Pace ms={125}>
+                  <span className="text-cta">React</span>
+                </Pace>
+              </WindupChildren>
+              , fluent across the{" "}
+              <WindupChildren>
+                <Pace ms={125}>
+                  <span className="text-cta">full stack</span>
+                </Pace>
+              </WindupChildren>
+              , and experienced in{" "}
+              <WindupChildren>
+                <Pace ms={125}>
+                  <span className="text-cta">UI/UX design</span>
+                </Pace>
+              </WindupChildren>
+              .
             </h2>
             <div className="flex flex-row mt-6 md:mt-10">
               <ExternalLink to="https://github.com/michaelmang">
@@ -92,7 +112,9 @@ export default function Home({ data }) {
                 className="md:text-2xl text-xl text-light mr-3"
                 icon={faMapMarkerAlt}
               />
-              <div className="text-light text-sm md:text-lg">Blacksburg, Virginia</div>
+              <div className="text-light text-sm md:text-lg">
+                Blacksburg, Virginia
+              </div>
             </div>
           </div>
           <div className="flex flex-col absolute -bottom-0 right-4 justify-end">

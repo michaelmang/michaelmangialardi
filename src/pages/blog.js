@@ -13,9 +13,11 @@ function uniq(list) {
 }
 
 export default function Blog({ data }) {
-  const categories = uniq(data.allGraphCmsPost.edges.flatMap(({ node }) => (
-    node.tags.filter(tag => tag !== "blog")
-  )))
+  const categories = uniq(
+    data.allGraphCmsPost.edges.flatMap(({ node }) =>
+      node.tags.filter(tag => tag !== "blog")
+    )
+  )
 
   const [filter, setFilter] = useState("all")
 
@@ -32,7 +34,9 @@ export default function Blog({ data }) {
               {["all", ...categories].map(category => (
                 <Pill
                   key={category}
-                  className={`${filter === category ? "bg-cta" : ""} hover:bg-cta cursor-pointer`}
+                  className={`${
+                    filter === category ? "bg-cta" : ""
+                  } hover:bg-cta cursor-pointer`}
                   onClick={() => setFilter(category)}
                 >
                   {startcase(category.toUpperCase())}
@@ -47,17 +51,21 @@ export default function Blog({ data }) {
           </h1>
         </div>
         <div className="flex flex-row flex-wrap w-full">
-          {data.allGraphCmsPost.edges.filter(({ node }) => filter === "all" || node.tags.includes(filter)).map(({ node }) => (
-            <Preview
-              key={node.title}
-              className="text-light min-w-64 w-80 p-8 rounded-lg shadow-xl border-background-light border-4 mr-6"
-              slug={node.slug}
-              subtitle={node.subtitle}
-              title={node.title}
-            >
-              {node.excerpt}
-            </Preview>
-          ))}
+          {data.allGraphCmsPost.edges
+            .filter(
+              ({ node }) => filter === "all" || node.tags.includes(filter)
+            )
+            .map(({ node }) => (
+              <Preview
+                key={node.title}
+                className="text-light min-w-64 w-80 p-8 rounded-lg shadow-xl border-background-light border-4 mr-6"
+                slug={node.slug}
+                subtitle={node.subtitle}
+                title={node.title}
+              >
+                {node.excerpt}
+              </Preview>
+            ))}
         </div>
       </div>
       <div className="fixed flex flex-col top-1/4 right-10">
@@ -69,7 +77,10 @@ export default function Blog({ data }) {
 
 export const query = graphql`
   query {
-    allGraphCmsPost(filter: {tags: {in: ["blog"]}}, sort: {order: ASC, fields: date}) {
+    allGraphCmsPost(
+      filter: { tags: { in: ["blog"] } }
+      sort: { order: ASC, fields: date }
+    ) {
       edges {
         node {
           slug

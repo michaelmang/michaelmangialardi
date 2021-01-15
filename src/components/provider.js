@@ -1,4 +1,9 @@
-import { ApolloClient, ApolloProvider, InMemoryCache, HttpLink } from "@apollo/client"
+import {
+  ApolloClient,
+  ApolloProvider,
+  InMemoryCache,
+  HttpLink,
+} from "@apollo/client"
 import fetch from "cross-fetch"
 import { createContext, useState } from "react"
 
@@ -7,7 +12,7 @@ const client = new ApolloClient({
     fetch,
     uri: process.env.APOLLO_CLIENT_URI,
   }),
-  cache: new InMemoryCache()
+  cache: new InMemoryCache(),
 })
 
 export const state = createContext()
