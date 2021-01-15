@@ -1,50 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="321px" height="321px" viewBox="0 0 321 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Group 2</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Bowser" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(0.387065, 0.387065)">
-            <rect id="Rectangle" fill="#FF5505" x="40" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="120" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="160" y="0" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="80" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="160" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="200" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="240" y="40" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="0" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="160" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="200" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="240" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="280" y="80" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="80" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="120" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="160" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="200" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="240" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="280" y="120" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="40" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="80" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="120" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="160" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="240" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="280" y="160" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="40" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="80" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="120" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="200" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="240" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="280" y="200" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="40" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="80" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="120" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="currentColor" x="160" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="200" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="240" y="240" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="80" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="120" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="160" y="280" width="40" height="40"></rect>
-            <rect id="Rectangle" fill="#FF5505" x="200" y="280" width="40" height="40"></rect>
-        </g>
-    </g>
+<svg width="321" height="321" viewBox="0 0 321 321" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#FF5505" d="M40.387.387h40v40h-40zM120.387.387h40v40h-40zM160.387.387h40v40h-40zM80.387 40.387h40v40h-40zM160.387 40.387h40v40h-40zM200.387 40.387h40v40h-40zM240.387 40.387h40v40h-40zM.387 80.387h40v40h-40zM160.387 80.387h40v40h-40z"/>
+    <path fill="currentColor" d="M200.387 80.387h40v40h-40z"/>
+    <path fill="#FF5505" d="M240.387 80.387h40v40h-40zM280.387 80.387h40v40h-40zM80.387 120.387h40v40h-40zM120.387 120.387h40v40h-40zM160.387 120.387h40v40h-40z"/>
+    <path fill="currentColor" d="M200.387 120.387h40v40h-40zM240.387 120.387h40v40h-40z"/>
+    <path fill="#FF5505" d="M280.387 120.387h40v40h-40zM40.387 160.387h40v40h-40zM80.387 160.387h40v40h-40z"/>
+    <path fill="currentColor" d="M120.387 160.387h40v40h-40zM160.387 160.387h40v40h-40zM240.387 160.387h40v40h-40z"/>
+    <path fill="#FF5505" d="M280.387 160.387h40v40h-40zM40.387 200.387h40v40h-40z"/>
+    <path fill="currentColor" d="M80.387 200.387h40v40h-40zM120.387 200.387h40v40h-40zM200.387 200.387h40v40h-40z"/>
+    <path fill="#FF5505" d="M240.387 200.387h40v40h-40zM280.387 200.387h40v40h-40zM40.387 240.387h40v40h-40zM80.387 240.387h40v40h-40z"/>
+    <path fill="currentColor" d="M120.387 240.387h40v40h-40zM160.387 240.387h40v40h-40z"/>
+    <path fill="#FF5505" d="M200.387 240.387h40v40h-40zM240.387 240.387h40v40h-40zM80.387 280.387h40v40h-40zM120.387 280.387h40v40h-40zM160.387 280.387h40v40h-40zM200.387 280.387h40v40h-40z"/>
+  </g>
 </svg>
