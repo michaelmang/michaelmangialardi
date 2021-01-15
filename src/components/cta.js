@@ -138,6 +138,7 @@ export default function Cta({ className }) {
             <div className="flex flex-row md:items-center mt-6 md:mt-12 h-32 w-full py-1">
               <div className="flex flex-col mr-6 w-1/4">
                 <label
+                  aria-label="First Name"
                   className={`text-sm ${
                     badName
                       ? "text-cta"
@@ -149,6 +150,7 @@ export default function Cta({ className }) {
                   First Name
                 </label>
                 <input
+                  aria-labelledby="First Name"
                   className={`text-dark dark:text-light bg-light border-b-2 dark:bg-dark outline-none bg-transparent ${
                     badName
                       ? "border-cta"
@@ -167,6 +169,7 @@ export default function Cta({ className }) {
 
               <div className="flex flex-col mr-6 w-1/4">
                 <label
+                  aria-label="Email"
                   className={`text-sm ${
                     missingEmail || badEmail
                       ? "text-cta"
@@ -178,6 +181,7 @@ export default function Cta({ className }) {
                   Email
                 </label>
                 <input
+                  aria-labelledby="Email"
                   className={`text-dark dark:text-light bg-light border-b-2 dark:bg-dark outline-none bg-transparent ${
                     missingEmail || badEmail
                       ? "border-cta"
