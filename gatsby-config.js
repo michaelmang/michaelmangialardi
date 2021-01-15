@@ -64,5 +64,17 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Michael Mangialardi",
+        short_name: "Michael Mangialardi",
+        start_url: "/",
+        background_color: "#0081A7",
+        theme_color: "#FDFCDC",
+        display: "standalone",
+        icon: "src/images/mario.svg",
+      },
+    },
   ],
 }
