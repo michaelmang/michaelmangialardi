@@ -11,7 +11,7 @@ export default function SEO({ tagline, title, description, image, article }) {
     defaultTitle,
     titleTemplate,
     defaultDescription,
-    url: siteUrl,
+    siteUrl,
     defaultImage,
     twitterUsername,
   } = site.siteMetadata
@@ -33,7 +33,7 @@ export default function SEO({ tagline, title, description, image, article }) {
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${image || socialImage || defaultImage}`,
+    image: `${image || socialImage || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   }
 
