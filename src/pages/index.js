@@ -164,6 +164,8 @@ export default function Home({ data }) {
               <Pill>Node</Pill>
               <Pill>Express</Pill>
               <Pill>Gatsby</Pill>
+              <Pill>CSS</Pill>
+              <Pill>Tailwind</Pill>
               <Pill>Jest</Pill>
               <Pill>Enzyme</Pill>
               <Pill>React Testing Library</Pill>
