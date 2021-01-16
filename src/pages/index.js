@@ -215,6 +215,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          excerpt
           slug
           title
           content {
