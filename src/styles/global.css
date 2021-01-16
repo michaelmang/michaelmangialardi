@@ -27,24 +27,21 @@ main > h4 {
   @apply text-3xl;
   @apply font-black;
   @apply text-background;
-  @apply mt-2;
-  @apply mb-6;
+  @apply my-6;
 }
 
 main > h5 {
   @apply text-2xl;
   @apply font-black;
   @apply text-background;
-  @apply mt-2;
-  @apply mb-5;
+  @apply my-5;
 }
 
 main > h6 {
   @apply text-xl;
   @apply font-black;
   @apply text-background;
-  @apply mt-2;
-  @apply mb-4;
+  @apply my-4;
 }
 
 .dark main > h4,
@@ -85,7 +82,6 @@ main > blockquote {
   @apply border-background;
 }
 
-
 .dark main > blockquote {
   @apply border-background-light;
 }
@@ -95,6 +91,10 @@ main > p > code.inline-code {
   background-color: #F9F58B; /* Darker shade of "light" */
   @apply text-dark;
   @apply rounded-sm;
+}
+
+main > img {
+  @apply shadow-lg;
 }
 
 .float {
