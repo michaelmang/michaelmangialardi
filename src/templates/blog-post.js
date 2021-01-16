@@ -71,7 +71,7 @@ export default function BlogPost({ data }) {
 
   return (
     <Layout>
-      <SEO description={post.excerpt || defaultExcerpt} title={post.title} />
+      <SEO description={post.seo.description} title={post.seo.title} />
       <div className="h-full w-full flex flex-col items-center pt-20">
         <h3 className="text-background-light dark:text-background text-xl">
           {startcase(post.tags.find(tag => tag !== "blog").toLowerCase())}
@@ -167,7 +167,11 @@ export const query = graphql`
       title
       tags
       subtitle
-      excerpt
+      seo {
+        keywords
+        description
+        title
+      }
     }
     graphCmsAuthor(name: { eq: "Michael Mangialardi" }) {
       biography
