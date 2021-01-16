@@ -82,7 +82,7 @@ export default function Home({ data }) {
                   />
                 </Boop>
               </ExternalLink>
-              <ExternalLink aria-label="Medium" to="https://medium.com/@michaelmangial1">
+              <ExternalLink aria-label="Medium" to="https://michaelmangial1.medium.com/">
                 <Boop>
                   <Icon
                     className="md:text-2xl text-xl text-light mr-3"
@@ -169,6 +169,7 @@ export default function Home({ data }) {
               <Pill>Jest</Pill>
               <Pill>Enzyme</Pill>
               <Pill>React Testing Library</Pill>
+              <Pill>Cypress</Pill>
               <Pill>Puppeteer</Pill>
               <Pill>Babel</Pill>
               <Pill>Webpack</Pill>
