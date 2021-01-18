@@ -76,5 +76,6 @@ module.exports = {
         icon: "src/images/mario_square.png",
       },
     },
+    'gatsby-plugin-catch-links',
   ],
 }
