@@ -38,9 +38,9 @@ export default function BlogPost({ data }) {
   const site = data.site.siteMetadata
 
   const maxExcerptChars = 160
-  const defaultExcerpt = truncate(post.content.text.replace(/\\n/gm, " "), {
+  const defaultExcerpt = post?.content?.text ? truncate(post.content.text.replace(/\\n/gm, " "), {
     length: maxExcerptChars,
-  })
+  }) : ""
 
   return (
     <Layout>
