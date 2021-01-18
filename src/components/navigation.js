@@ -34,13 +34,6 @@ export default function Navigation() {
 
         <Link
           className={`${expandMenu ? "flex" : "hidden"} md:flex mr-0 my-2 md:mr-6 md:my-0 text-cta font-bold text-sm md:text-lg tracking-wider`}
-          to="/"
-        >
-          Work
-        </Link>
-
-        <Link
-          className={`${expandMenu ? "flex" : "hidden"} md:flex mr-0 mb-2 md:mr-6 md:mb-0 text-cta font-bold text-sm md:text-lg tracking-wider`}
           to="/newsletter"
         >
           Newsletter

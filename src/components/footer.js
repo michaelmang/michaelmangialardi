@@ -27,12 +27,6 @@ export default function Footer() {
           </Link>
           <Link
             className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
-            to="/"
-          >
-            Work
-          </Link>
-          <Link
-            className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
             to="/newsletter"
           >
             Newsletter
