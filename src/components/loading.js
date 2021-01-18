@@ -30,10 +30,12 @@ export default function Loading({
 
   const character = (
     <Character
-      className={`h-${96 * scale} w-${96 * scale} m${reverse ? "l" : "r"}-${
-        8 * scale
-      } text-sun`}
-      style={{ transform: `scaleX(${reverse ? -1 : 1})` }}
+      className={`m${reverse ? "l" : "r"}-${8 * scale} text-sun`}
+      style={{
+        transform: `scaleX(${reverse ? -1 : 1})`,
+        height: `${18 * scale}rem`,
+        width: `${18 * scale}rem`,
+      }}
     />
   )
 
@@ -44,12 +46,14 @@ export default function Loading({
   const flame = flameCount.map(idx => (
     <AnimatedFlame
       key={idx}
-      className={`mt-${8 * scale} ${idx === 2 ? `mx-${8 * scale}` : "mx-0"} h-${
-        32 * scale
-      } w-${32 * scale} text-sun dark:text-background`}
+      className={`mt-${8 * scale} ${
+        idx === 2 ? `mx-${8 * scale}` : "mx-0"
+      } text-sun dark:text-background h-8`}
       style={{
         ...springs[idx],
         transform: `scaleX(${reverse ? -1 : 1})`,
+        height: `${7 * scale}rem`,
+        width: `${7 * scale}rem`,
       }}
     />
   ))
