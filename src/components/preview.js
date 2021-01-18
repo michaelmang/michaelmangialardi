@@ -32,7 +32,11 @@ export default function Preview({
   const spring = useSpring(fadeIn())
 
   return (
-    <animated.div {...rest} className={`flex flex-col mb-6 ${className}`} style={spring}>
+    <animated.div
+      {...rest}
+      className={`flex flex-col mb-6 ${className}`}
+      style={spring}
+    >
       {hoverableTitle}
       {subtitle && (
         <h4 className="text-dark dark:text-light opacity-75 text-sm md:text-base font-bold">

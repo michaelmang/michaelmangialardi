@@ -38,9 +38,11 @@ export default function BlogPost({ data }) {
   const site = data.site.siteMetadata
 
   const maxExcerptChars = 160
-  const defaultExcerpt = post?.content?.text ? truncate(post.content.text.replace(/\\n/gm, " "), {
-    length: maxExcerptChars,
-  }) : ""
+  const defaultExcerpt = post?.content?.text
+    ? truncate(post.content.text.replace(/\\n/gm, " "), {
+        length: maxExcerptChars,
+      })
+    : ""
 
   return (
     <Layout>
@@ -60,7 +62,9 @@ export default function BlogPost({ data }) {
         </h5>
         <main
           className="w-full max-w-screen-sm"
-          dangerouslySetInnerHTML={{ __html: format(post.html || post.content.html) }}
+          dangerouslySetInnerHTML={{
+            __html: format(post.html || post.content.html),
+          }}
           ref={contentRef}
         />
       </div>

@@ -66,7 +66,10 @@ export default function Home({ data }) {
               .
             </h2>
             <div className="flex flex-row mt-6 md:mt-10">
-              <ExternalLink aria-label="Github" to="https://github.com/michaelmang">
+              <ExternalLink
+                aria-label="Github"
+                to="https://github.com/michaelmang"
+              >
                 <Boop>
                   <Icon
                     className="md:text-2xl text-xl text-light mr-3"
@@ -74,7 +77,10 @@ export default function Home({ data }) {
                   />
                 </Boop>
               </ExternalLink>
-              <ExternalLink aria-label="Codepen" to="https://codepen.io/mikemang">
+              <ExternalLink
+                aria-label="Codepen"
+                to="https://codepen.io/mikemang"
+              >
                 <Boop>
                   <Icon
                     className="md:text-2xl text-xl text-light mr-3"
@@ -82,7 +88,10 @@ export default function Home({ data }) {
                   />
                 </Boop>
               </ExternalLink>
-              <ExternalLink aria-label="Medium" to="https://michaelmangial1.medium.com/">
+              <ExternalLink
+                aria-label="Medium"
+                to="https://michaelmangial1.medium.com/"
+              >
                 <Boop>
                   <Icon
                     className="md:text-2xl text-xl text-light mr-3"
@@ -90,7 +99,10 @@ export default function Home({ data }) {
                   />
                 </Boop>
               </ExternalLink>
-              <ExternalLink aria-label="Dribbble" to="https://dribbble.com/mikemang">
+              <ExternalLink
+                aria-label="Dribbble"
+                to="https://dribbble.com/mikemang"
+              >
                 <Boop>
                   <Icon
                     className="md:text-2xl text-xl text-light mr-3"
@@ -98,7 +110,10 @@ export default function Home({ data }) {
                   />
                 </Boop>
               </ExternalLink>
-              <ExternalLink aria-label="YouTube" to="https://www.youtube.com/channel/UCg9CbhSszDBIg-yxk-fSqhA/videos">
+              <ExternalLink
+                aria-label="YouTube"
+                to="https://www.youtube.com/channel/UCg9CbhSszDBIg-yxk-fSqhA/videos"
+              >
                 <Boop>
                   <Icon
                     className="md:text-2xl text-xl text-light mr-3"
