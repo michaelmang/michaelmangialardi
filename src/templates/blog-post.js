@@ -16,6 +16,11 @@ import ThemeToggle from "../components/theme-toggle"
 import Luigi from "../images/luigi.svg"
 import Mario from "../images/mario.svg"
 
+function format(html) {
+  const matchEmptyTags = /<\w*><\/\w*>/gm
+  return html.replace(matchEmptyTags, "")
+}
+
 export default function BlogPost({ data }) {
   const contentRef = useRef(null)
 
@@ -54,8 +59,8 @@ export default function BlogPost({ data }) {
           Last Updated: {post.date}
         </h5>
         <main
-          className="max-w-screen-sm"
-          dangerouslySetInnerHTML={{ __html: post.html || post.content.html }}
+          className="w-full max-w-screen-sm"
+          dangerouslySetInnerHTML={{ __html: format(post.html || post.content.html) }}
           ref={contentRef}
         />
       </div>
@@ -114,7 +119,7 @@ export default function BlogPost({ data }) {
           </Fragment>
         )}
       </div>
-      <div className="fixed flex flex-col top-1/4 right-10">
+      <div className="fixed flex flex-col top-1/4 right-5 md:right-10">
         <ThemeToggle />
         <LikeButton slug={post.slug} />
       </div>

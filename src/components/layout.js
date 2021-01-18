@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       {context => (
         <div className={context.isDark ? "dark" : "light"}>
           <div
-            className={`font-display min-h-screen w-screen bg-light dark:bg-dark px-10 py-5 md:px-20 md:py-10`}
+            className={`font-display min-h-screen w-screen bg-light dark:bg-dark px-8 py-5 md:px-20 md:py-10`}
           >
             <Navigation />
             <div

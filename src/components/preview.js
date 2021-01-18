@@ -17,7 +17,7 @@ export default function Preview({
     return (
       <Link to={slug}>
         <h3
-          className={`cursor-pointer text-base md:text-lg w-max ${
+          className={`cursor-pointer text-base md:text-lg md:w-max md:max-w-xs ${
             hovered ? "text-cta" : "text-dark dark:text-light"
           } font-bold`}
         >
@@ -45,7 +45,7 @@ export default function Preview({
       <Link
         className={`cursor-pointer text-sm md:text-base hover:text-cta ${
           isTitleHovered ? "text-cta" : "text-dark dark:text-light"
-        } font-bold`}
+        } font-bold w-max`}
         to={slug}
       >
         {defaultCta}

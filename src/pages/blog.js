@@ -50,7 +50,7 @@ export default function Blog({ data }) {
             {startcase(filter.toLowerCase())} Posts
           </h1>
         </div>
-        <div className="flex flex-row flex-wrap w-full">
+        <div className="flex flex-row flex-wrap w-full justify-center md:justify-start">
           {data.allGraphCmsPost.edges
             .filter(
               ({ node }) => filter === "all" || node.tags.includes(filter)
@@ -58,7 +58,7 @@ export default function Blog({ data }) {
             .map(({ node }) => (
               <Preview
                 key={node.title}
-                className="text-light min-w-64 w-80 p-8 rounded-lg shadow-xl border-background-light border-4 mr-6"
+                className="text-light w-full md:min-w-64 md:w-min p-8 rounded-lg shadow-xl border-background-light border-4 md:mr-6"
                 slug={node.slug}
                 subtitle={node.subtitle}
                 title={node.title}
@@ -68,7 +68,7 @@ export default function Blog({ data }) {
             ))}
         </div>
       </div>
-      <div className="fixed flex flex-col top-1/4 right-10">
+      <div className="fixed flex flex-col top-1/4 right-5 md:right-10">
         <ThemeToggle />
       </div>
     </Layout>

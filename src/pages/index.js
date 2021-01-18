@@ -122,8 +122,8 @@ export default function Home({ data }) {
             <Pipe className="h-12 md:h-24 w-auto" />
           </div>
         </div>
-        <div className="flex flex-row justify-between mt-16">
-          <div className="flex flex-col w-3/5 max-w-screen-sm">
+        <div className="flex flex-row flex-wrap justify-between mt-16">
+          <div className="flex flex-col max-w-screen-sm">
             {["Professional Experience", "Side Projects"].map(heading => (
               <Posts
                 key={heading}

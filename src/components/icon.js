@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-export default function Icon({ className, icon }) {
-  return <FontAwesomeIcon className={className} icon={icon} />
+export default function Icon({ className, icon, ...rest }) {
+  return <FontAwesomeIcon {...rest} className={className} icon={icon} />
 }

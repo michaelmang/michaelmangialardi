@@ -15,7 +15,7 @@ export default function Lost() {
           <Cta className="shadow-none mt-4 pl-0" />
         </div>
       </div>
-      <div className="fixed flex flex-col top-1/4 right-10">
+      <div className="fixed flex flex-col top-1/4 right-5 md:right-10">
         <ThemeToggle />
       </div>
     </Layout>

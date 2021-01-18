@@ -17,7 +17,7 @@ export default function Footer() {
           © 2020-present Michael Mangialardi. All Rights Reserved
         </div>
       </div>
-      <div className="flex flex-col w-1/4 items-end">
+      <div className="flex-col hidden md:flex md:w-1/4 items-end">
         <div className="flex flex-row">
           <Link
             className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
