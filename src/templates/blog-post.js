@@ -4,7 +4,6 @@ import hljs from "highlight.js"
 import truncate from "lodash.truncate"
 import startcase from "lodash.startcase"
 import { Fragment, useEffect, useRef } from "react"
-import reactElementToJSXString from "react-element-to-jsx-string"
 
 import Bio from "../components/bio"
 import Cta from "../components/cta"
@@ -16,37 +15,6 @@ import SEO from "../components/seo"
 import ThemeToggle from "../components/theme-toggle"
 import Luigi from "../images/luigi.svg"
 import Mario from "../images/mario.svg"
-
-function format(defaultHtml) {
-  let html = defaultHtml
-
-  const matchInlineCode = /`<*\w+ *\/*>*`/gm
-  const inlineCode = html.match(matchInlineCode)
-
-  if (inlineCode) {
-    const innerInlineCode = inlineCode[0].replace(/`/gm, "")
-    const transformedInlineCode = reactElementToJSXString(
-      <code class="inline-code inline-flex">{innerInlineCode}</code>
-    )
-    html = html.replace(matchInlineCode, transformedInlineCode)
-  }
-
-  const matchCode = /<code>(.|\n)*?<\/code>/gm
-  const matchCodeTag = /<\/*code>/gm
-  const code = html.match(matchCode)
-
-  if (code) {
-    const innerCode = code[0].replace(matchCodeTag, "")
-    const transformedCode = reactElementToJSXString(
-      <pre class="rounded-lg">
-        <code>{innerCode}</code>
-      </pre>
-    )
-    html = html.replace(matchCode, transformedCode)
-  }
-
-  return html
-}
 
 export default function BlogPost({ data }) {
   const contentRef = useRef(null)
@@ -73,21 +41,21 @@ export default function BlogPost({ data }) {
     <Layout>
       <SEO description={post.seo.description} title={post.seo.title} />
       <div className="h-full w-full flex flex-col items-center pt-20">
-        <h3 className="text-background-light dark:text-background text-xl">
+        <h3 className="text-background-light dark:text-background text-xl text-center">
           {startcase(post.tags.find(tag => tag !== "blog").toLowerCase())}
         </h3>
-        <h1 className="my-6 text-4xl text-dark dark:text-light font-black leading-10">
+        <h1 className="my-6 text-4xl text-dark dark:text-light font-black leading-10 max-w-screen-sm text-center">
           {post.title}
         </h1>
-        <h2 className="mb-8 text-3xl font-bold leading-10 text-dark dark:text-light opacity-75">
+        <h2 className="mb-8 text-3xl font-bold leading-10 text-dark dark:text-light opacity-75 max-w-screen-sm text-center">
           {post.subtitle}
         </h2>
-        <h5 className="mb-10 md:mb-20 text-dark dark:text-light opacity-75 font-bold text-xs tracking-wider">
+        <h5 className="mb-10 md:mb-20 text-dark dark:text-light opacity-75 font-bold text-xs tracking-wider max-w-screen-sm text-center">
           Last Updated: {post.date}
         </h5>
         <main
           className="max-w-screen-sm"
-          dangerouslySetInnerHTML={{ __html: format(post.content.html) }}
+          dangerouslySetInnerHTML={{ __html: post.html || post.content.html }}
           ref={contentRef}
         />
       </div>
@@ -160,6 +128,7 @@ export const query = graphql`
         html
         text
       }
+      html
       date
       id
       updatedAt

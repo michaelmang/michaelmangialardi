@@ -74,6 +74,7 @@ main > p > strong {
 }
 
 main > blockquote {
+  @apply my-4;
   @apply p-4;
   @apply text-dark;
   @apply bg-accent;
@@ -86,14 +87,27 @@ main > blockquote {
   @apply border-background-light;
 }
 
-main > p > code.inline-code {
-  @apply px-1;
+main > pre {
+  @apply my-6;
+  @apply rounded-md;
+  @apply shadow-lg;
+}
+
+main > ul {
+  @apply list-disc;
+  @apply list-inside;
+  @apply ml-6;
+}
+
+main code.inline-code {
+  @apply p-1;
   background-color: #F9F58B; /* Darker shade of "light" */
   @apply text-dark;
   @apply rounded-sm;
 }
 
-main > img {
+main img {
+  @apply my-6;
   @apply shadow-lg;
 }
 
