@@ -73,7 +73,7 @@ module.exports = {
         background_color: "#0081A7",
         theme_color: "#FDFCDC",
         display: "standalone",
-        icon: "src/images/mario.svg",
+        icon: "src/images/mario_square.png",
       },
     },
   ],
