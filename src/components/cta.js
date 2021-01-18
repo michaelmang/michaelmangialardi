@@ -101,7 +101,7 @@ export default function Cta({ className }) {
       className={`flex flex-row self-center my-16 bg-light dark:bg-dark shadow-2xl max-w-screen-sm min-h-64 w-full p-8 ${className}`}
     >
       <form
-        className="flex flex-col text-justify w-full"
+        className="flex flex-col text-left md:text-justify w-full"
         onSubmit={handleSubmit}
       >
         <div className="text-background dark:text-background-light text-lg md:text-xl font-black">
@@ -147,7 +147,7 @@ export default function Cta({ className }) {
                       : "text-dark dark:text-light"
                   }`}
                 >
-                  First Name
+                  Name
                 </label>
                 <input
                   aria-labelledby="First Name"
@@ -203,7 +203,7 @@ export default function Cta({ className }) {
                 className="h-full w-24 md:w-32 focus:outline-none active:outline-none"
                 type="submit"
               >
-                <Lakitu className="float text-dark dark:text-light cursor-pointer -mt-8 md:-mt-12 h-full w-full" />
+                <Lakitu className="float text-dark dark:text-light cursor-pointer -mt-16 md:-mt-12 h-full w-full" />
               </button>
             </div>
           </Fragment>

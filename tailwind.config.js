@@ -14,7 +14,11 @@ module.exports = {
       cta: "#F07167",
       sun: "#FFE773",
     },
-    extend: {},
+    extend: {
+      borderRadius: {
+        circle: "50%",
+      }
+    },
   },
   variants: {
     extend: {

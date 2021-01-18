@@ -69,7 +69,7 @@ export default function BlogPost({ data }) {
           <Fragment>
             <FireCta>
               <ExternalLink
-                className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
+                className="mx-1 md:mx-4 text-cta font-bold text-xs md:text-lg tracking-wider text-center"
                 to={
                   "https://mobile.twitter.com/search?q=" +
                   encodeURIComponent(`${site.url}/blog/${post.slug}`)
@@ -80,7 +80,7 @@ export default function BlogPost({ data }) {
             </FireCta>
             <FireCta character={Mario}>
               <ExternalLink
-                className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
+                className="mx-1 md:mx-4 text-cta font-bold text-xs md:text-lg tracking-wider text-center"
                 to={
                   "https://twitter.com/intent/tweet?url=" +
                   encodeURIComponent(`${site.url}/blog/${post.slug} \n\n`) +
@@ -98,7 +98,7 @@ export default function BlogPost({ data }) {
             </FireCta>
             <FireCta character={Luigi}>
               <ExternalLink
-                className="mx-4 text-cta font-bold text-xs md:text-lg tracking-wider"
+                className="mx-1 md:mx-4 text-cta font-bold text-xs md:text-lg tracking-wider text-center"
                 to={
                   "https://www.facebook.com/sharer/sharer.php?u=" +
                   encodeURIComponent(`${site.url}/blog/${post.slug}`)
