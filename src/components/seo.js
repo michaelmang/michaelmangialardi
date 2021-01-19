@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-export default function SEO({ tagline, title, description, image, article }) {
+export default function SEO({ title, description, image, article }) {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
@@ -18,7 +18,7 @@ export default function SEO({ tagline, title, description, image, article }) {
 
   const socialImage = getShareImage({
     title: title || defaultTitle,
-    tagline: tagline || defaultDescription,
+    tagline: description || defaultDescription,
     cloudName: "dpzpn0xkz",
     imagePublicID: "michael_mangialardi/social_card",
     titleFont: "futura",
