@@ -111,6 +111,26 @@ main img {
   @apply shadow-lg;
 }
 
+main ol {
+  @apply list-decimal;
+  @apply list-inside;
+  @apply py-2;
+}
+
+main ol > li {
+  @apply font-bold;
+}
+
+main ul {
+  @apply list-disc;
+  @apply list-inside;
+  @apply py-2;
+}
+
+main ul > li {
+  @apply font-bold;
+}
+
 .float {
   animation: float 1s infinite alternate-reverse ease-in-out;
 }
