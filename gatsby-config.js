@@ -76,7 +76,7 @@ module.exports = {
         icon: "src/images/mario_square.png",
       },
     },
-    'gatsby-plugin-catch-links',
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-catch-links",
+    "gatsby-plugin-react-helmet",
   ],
 }

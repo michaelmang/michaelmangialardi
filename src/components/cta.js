@@ -1,5 +1,4 @@
-import { useMutation } from "@apollo/client"
-import gql from "graphql-tag"
+import { gql, useMutation } from "@apollo/client"
 import { Fragment, useState } from "react"
 import { useToggle } from "react-use"
 

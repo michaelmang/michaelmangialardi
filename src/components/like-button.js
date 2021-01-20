@@ -1,5 +1,4 @@
-import { useMutation, useQuery } from "@apollo/client"
-import gql from "graphql-tag"
+import { gql, useMutation, useQuery } from "@apollo/client"
 import { Fragment } from "react"
 import { useToggle } from "react-use"
 import Pow from "../images/pow.svg"
