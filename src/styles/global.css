@@ -87,7 +87,7 @@ main > blockquote {
   @apply border-background-light;
 }
 
-main > pre {
+main pre {
   @apply my-6;
   @apply rounded-md;
   @apply shadow-lg;
