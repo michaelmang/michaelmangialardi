@@ -17,7 +17,7 @@ export default function Posts({ className, heading, posts, subpath }) {
             subtitle={node.subtitle}
             title={node.title}
           >
-            <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+            <div class="excerpt" dangerouslySetInnerHTML={{ __html: node.excerpt }} />
           </Preview>
         ))}
     </Fragment>

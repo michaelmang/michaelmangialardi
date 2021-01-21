@@ -140,3 +140,7 @@ main ul > li {
     transform: translate(-0.5rem, 0.25rem);
   }
 }
+
+.excerpt > p {
+  @apply pb-2;
+}
