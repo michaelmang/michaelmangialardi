@@ -24,7 +24,7 @@ import ThemeToggle from "../components/theme-toggle"
 export default function Home({ data }) {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Portfolio" />
       <div className="h-full w-full flex flex-col">
         <div className="relative rounded-sm flex flex-row shadow-2xl bg-gradient-to-r from-background to-background-light justify-around items-center px-4 py-6 md:px-10 md:py-0">
           <div className="h-full hidden md:w-1/4 md:block">
