@@ -17,6 +17,7 @@ main {
 
 main > p {
   @apply py-2;
+  line-height: 2rem;
 }
 
 .dark main > p {
