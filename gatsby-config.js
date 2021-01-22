@@ -78,5 +78,11 @@ module.exports = {
     },
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: 'gatsby-plugin-apollo',
+      options: {
+        uri: process.env.APOLLO_CLIENT_URI,
+      },
+    },
   ],
 }
