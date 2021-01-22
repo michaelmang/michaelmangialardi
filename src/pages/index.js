@@ -157,6 +157,7 @@ export default function Home({ data }) {
               <Pill>Unit Testing</Pill>
               <Pill>End-to-End Testing</Pill>
               <Pill>AuthN & AuthZ</Pill>
+              <Pill>Design Tokens</Pill>
               <Pill>Design Systems</Pill>
               <Pill>Animations</Pill>
               <Pill>CI/CD Engineering</Pill>
