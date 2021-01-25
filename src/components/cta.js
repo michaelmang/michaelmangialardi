@@ -5,6 +5,8 @@ import { useToggle } from "react-use"
 import Lakitu from "../images/lakitu_cta.svg"
 import LakituThanks from "../images/lakitu_cta_thanks.svg"
 
+const STORAGE_KEY = "michaelmangialardi-newsletter"
+
 const UPSERT_EMAIL = gql`
   mutation($email: String!, $first_name: String = "") {
     insert_emails_one(
@@ -91,9 +93,11 @@ export default function Cta({ className }) {
         first_name: firstName,
       },
     })
+
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(true));
   }
 
-  const hasSubmitted = loading || data
+  const hasSubmitted = loading || data || JSON.parse(window.localStorage.getItem(STORAGE_KEY))
 
   return (
     <div
