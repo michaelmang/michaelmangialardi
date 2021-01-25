@@ -3,7 +3,7 @@ const path = require("path")
 exports.createPages = async ({ graphql, actions }) => {
   const blogPosts = await graphql(`
     query GetBlogPosts {
-      allGraphCmsPost(filter: { tags: { in: ["blog"] } }) {
+      allGraphCmsPost(filter: {tags: {in: ["blog"]}}, sort: {fields: createdAt, order: DESC}) {
         edges {
           node {
             slug
