@@ -92,6 +92,8 @@ main pre {
   @apply my-6;
   @apply rounded-md;
   @apply shadow-lg;
+  @apply break-all;
+  word-wrap: break-word;
 }
 
 main > ul {
