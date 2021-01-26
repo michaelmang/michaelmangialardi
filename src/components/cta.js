@@ -1,6 +1,6 @@
 import { gql, useMutation } from "@apollo/client"
 import { Fragment, useState } from "react"
-import { useToggle } from "react-use"
+import { useToggle, useMount } from "react-use"
 
 import Lakitu from "../images/lakitu_cta.svg"
 import LakituThanks from "../images/lakitu_cta_thanks.svg"
@@ -18,6 +18,10 @@ const UPSERT_EMAIL = gql`
     }
   }
 `
+
+function getStorageItem() {
+  JSON.parse(window?.localStorage?.getItem(STORAGE_KEY))
+}
 
 function normalize(e) {
   return e.target.value
@@ -94,10 +98,14 @@ export default function Cta({ className }) {
       },
     })
 
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(true));
+    window?.localStorage?.setItem(STORAGE_KEY, JSON.stringify(true));
   }
 
-  const hasSubmitted = loading || data || JSON.parse(window.localStorage.getItem(STORAGE_KEY))
+  const [hasSubscribed, setSubscribed] = useState(undefined)
+
+  useMount(() => setSubscribed(getStorageItem()))
+
+  const hasSubmitted = loading || data || hasSubscribed
 
   return (
     <div
