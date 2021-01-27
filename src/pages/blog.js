@@ -58,7 +58,7 @@ export default function Blog({ data }) {
             .map(({ node }) => (
               <Preview
                 key={node.title}
-                className="text-light w-full md:min-w-64 md:w-min p-8 rounded-lg shadow-xl border-background-light border-4 md:mr-6"
+                className="text-light w-full md:w-96 p-8 rounded-lg shadow-xl border-background-light border-4 md:mr-6"
                 slug={node.slug}
                 subtitle={node.subtitle}
                 title={node.title}
