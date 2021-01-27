@@ -76,7 +76,7 @@ export default function BlogPost({ data }) {
                 className="mx-1 md:mx-4 text-cta font-bold text-xs md:text-lg tracking-wider text-center"
                 to={
                   "https://mobile.twitter.com/search?q=" +
-                  encodeURIComponent(`${site.url}/blog/${post.slug}`)
+                  encodeURIComponent(`${site.url.replace(/https:\/\/www./gm, "")}/blog/${post.slug}`)
                 }
               >
                 Discuss On Twitter
