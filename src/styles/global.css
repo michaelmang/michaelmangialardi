@@ -134,6 +134,20 @@ main ul > li {
   @apply font-bold;
 }
 
+.hljs {
+  display: flex !important;
+}
+
+.hljs-attr {
+  color: #ff79c6 !important;
+}
+
+.hljs-addition,
+.hljs-addition > .hljs-attr,
+.hljs-addition > .hljs-string {
+  color: #50fa7b !important;
+}
+
 .float {
   animation: float 1s infinite alternate-reverse ease-in-out;
 }
