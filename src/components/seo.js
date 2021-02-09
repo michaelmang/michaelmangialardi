@@ -41,6 +41,8 @@ export default function SEO({ title, description, image, article }) {
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <html lang="en" />
 
+      <script async src="https://cdn.splitbee.io/sb.js"></script>
+
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 
