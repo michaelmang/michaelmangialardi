@@ -98,7 +98,7 @@ export default function Cta({ className }) {
       },
     })
 
-    window?.localStorage?.setItem(STORAGE_KEY, JSON.stringify(true));
+    window?.localStorage?.setItem(STORAGE_KEY, JSON.stringify(true))
   }
 
   const [hasSubscribed, setSubscribed] = useState(undefined)
@@ -121,10 +121,11 @@ export default function Cta({ className }) {
             : "A Newsletter for Learning What I'm Learning"}
         </div>
 
-        <p className="mt-6 text-dark dark:text-light text-sm md:text-base font-black">
-          I'll send you an email shortly to say hey and so you can{" "}
-          <Em>confirm your email</Em>.
-        </p>
+        {hasSubmitted && (
+          <p className="mt-6 text-dark dark:text-light text-sm md:text-base font-black">
+            I'll send you an email shortly just to say hey.
+          </p>
+        )}
 
         {!hasSubmitted && (
           <Fragment>
