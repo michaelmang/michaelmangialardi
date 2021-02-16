@@ -54,7 +54,7 @@ export default function Navigation() {
           className={`${
             expandMenu ? "flex" : "hidden"
           } md:flex text-cta font-bold text-sm md:text-lg tracking-wider`}
-          href="mailto:mikemangialardi94@gmail.com"
+          href="mailto:me@michaelmang.dev"
         >
           Contact
         </a>
