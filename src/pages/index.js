@@ -38,7 +38,7 @@ export default function Home({ data }) {
               I'm a{" "}
               <WindupChildren>
                 <Pace ms={125}>
-                  <span className="text-cta">UI developer</span>
+                  <span className="text-cta">Frontend Engineer</span>
                 </Pace>
               </WindupChildren>{" "}
               at{" "}
