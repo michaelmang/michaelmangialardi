@@ -25,6 +25,12 @@ export default function Footer() {
           >
             Blog
           </Link>
+          <a
+            className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
+            href="https://leanpub.com/designsystemsfordevelopers"
+          >
+            Ebook
+          </a>
           <Link
             className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
             to="/newsletter"

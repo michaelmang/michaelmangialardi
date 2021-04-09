@@ -41,6 +41,15 @@ export default function Navigation() {
           Blog
         </Link>
 
+        <a
+          className={`${
+            expandMenu ? "flex" : "hidden"
+          } md:flex mr-0 md:mr-6 text-cta font-bold text-sm md:text-lg tracking-wider`}
+          href="https://leanpub.com/designsystemsfordevelopers"
+        >
+          Ebook
+        </a>
+
         <Link
           className={`${
             expandMenu ? "flex" : "hidden"
