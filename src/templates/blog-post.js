@@ -21,7 +21,7 @@ function format(html) {
   return html.replace(matchEmptyTags, "")
 }
 
-export default function BlogPost({ data }) {
+export default function BlogPost({ data, path }) {
   const contentRef = useRef(null)
 
   useEffect(() => {
@@ -45,7 +45,7 @@ export default function BlogPost({ data }) {
     : ""
 
   return (
-    <Layout>
+    <Layout cta>
       <SEO description={post.seo.description} title={post.seo.title} />
       <div className="h-full w-full flex flex-col items-center pt-20">
         <h3 className="text-background-light dark:text-background text-xl text-center">
