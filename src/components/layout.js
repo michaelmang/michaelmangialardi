@@ -9,7 +9,7 @@ export default function Layout({ children, cta = false }) {
         <div className={context.isDark ? "dark" : "light"}>
           {cta && (
             <a
-              className="flex justify-center p-4 h-30 w-full bg-gradient-to-r from-background-light to-background text-light text-base md:text-lg"
+              className="flex justify-center p-4 h-30 w-full bg-gradient-to-r from-cta via-background to-background-light text-light text-base md:text-lg"
               href="https://leanpub.com/designsystemsfordevelopers"
               data-splitbee-event="Visit ebook landing page"
             >
