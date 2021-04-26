@@ -5,8 +5,8 @@ import truncate from "lodash.truncate"
 import startcase from "lodash.startcase"
 import { Fragment, useEffect, useRef } from "react"
 
+import Ad from "../components/ad"
 import Bio from "../components/bio"
-import Cta from "../components/cta"
 import ExternalLink from "../components/external-link"
 import FireCta from "../components/fire-cta"
 import Layout from "../components/layout"
@@ -21,7 +21,7 @@ function format(html) {
   return html.replace(matchEmptyTags, "")
 }
 
-export default function BlogPost({ data, path }) {
+export default function BlogPost({ data }) {
   const contentRef = useRef(null)
 
   useEffect(() => {
@@ -111,7 +111,7 @@ export default function BlogPost({ data, path }) {
                 Share On Facebook
               </ExternalLink>
             </FireCta>
-            <Cta />
+            <Ad fluid={data.ebookCover.childImageSharp.fluid} />
             <hr className="border-background dark:border-background-light border-t-2 w-full max-w-screen-lg my-6" />
             <Bio
               className="max-w-screen-lg mt-3"
@@ -156,6 +156,15 @@ export const query = graphql`
       name
     }
     avatar: file(relativePath: { eq: "avatar.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 1000, quality: 100) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    ebookCover: file(relativePath: { eq: "ebook-cover.png" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
