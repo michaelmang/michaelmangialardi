@@ -3,7 +3,7 @@ import Img from "gatsby-image"
 export default function Ad({ className, fluid }) {
   return (
     <div
-      className={`flex flex-row self-center my-16 bg-dark dark:bg-light shadow-2xl max-w-screen-sm min-h-64 w-full p-8 ${className}`}
+      className={`flex flex-row self-center my-16 rounded-lg bg-dark dark:bg-light shadow-2xl max-w-screen-sm min-h-64 w-full p-8 ${className}`}
     >
       <div
         className="flex flex-col text-left md:text-justify w-2/3"

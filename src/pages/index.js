@@ -10,14 +10,15 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Pace, WindupChildren } from "windups"
 
+import Ad from "../components/ad"
 import Boop from "../components/boop"
 import ExternalLink from "../components/external-link"
-import Heading from "../components/heading"
+// import Heading from "../components/heading"
 import Icon from "../components/icon"
 import Layout from "../components/layout"
-import Pill from "../components/pill"
+// import Pill from "../components/pill"
 import Pipe from "../images/pipe.svg"
-import Posts from "../components/posts"
+// import Posts from "../components/posts"
 import SEO from "../components/seo"
 import ThemeToggle from "../components/theme-toggle"
 
@@ -30,7 +31,7 @@ export default function Home({ data }) {
           <div className="h-full hidden md:w-1/4 md:block">
             <Img fluid={data.portrait.childImageSharp.fluid} />
           </div>
-          <div className="flex flex-col w-full md:w-3/4 px-4 md:px-10">
+          <div className="flex flex-col w-full md:w-3/4 px-4 py-4 md:px-10">
             <h1 className="font-bold tracking-wide text-light text-lg md:text-2xl">
               Hi, I'm Michael Mangialardi 👋
             </h1>
@@ -41,10 +42,6 @@ export default function Home({ data }) {
                   <span className="text-cta">Frontend Engineer</span>
                 </Pace>
               </WindupChildren>{" "}
-              at{" "}
-              <ExternalLink to="https://www.rackspace.com/">
-                Rackspace Technology{" "}
-              </ExternalLink>
               specializing in{" "}
               <WindupChildren>
                 <Pace ms={125}>
@@ -137,7 +134,8 @@ export default function Home({ data }) {
             <Pipe className="h-12 md:h-24 w-auto" />
           </div>
         </div>
-        <div className="flex flex-row flex-wrap justify-between mt-16">
+        <Ad fluid={data.ebookCover.childImageSharp.fluid} />
+        {/* <div className="flex flex-row flex-wrap justify-between mt-16">
           <div className="flex flex-col max-w-screen-sm">
             {["Professional Experience", "Side Projects"].map(heading => (
               <Posts
@@ -208,7 +206,7 @@ export default function Home({ data }) {
               <Pill>Tech Talks</Pill>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   )
@@ -216,6 +214,15 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
+    ebookCover: file(relativePath: { eq: "ebook-cover.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 1000, quality: 100) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
     portrait: file(relativePath: { eq: "portrait.png" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
