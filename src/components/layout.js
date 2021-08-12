@@ -13,9 +13,9 @@ export default function Layout({ children, cta = false }) {
               href="https://leanpub.com/designsystemsfordevelopers"
               data-splitbee-event="Visit ebook landing page"
             >
-              <span className="mr-2">✨</span>My new ebook
-              &nbsp;<em className="italic">Design Systems for Developers</em>&nbsp; is 
-              here! Start reading<span className="ml-2">✨</span>
+              <span className="mr-2">✨</span>Learn how to build a Shopify-like design system in my book
+              &nbsp;<em className="italic">Design Systems for Developers</em>&nbsp;
+              <span className="ml-2">✨</span>
             </a>
           )}
           <div
