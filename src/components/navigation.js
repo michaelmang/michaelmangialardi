@@ -47,10 +47,10 @@ export default function Navigation() {
           } md:flex mr-0 md:mr-6 text-cta font-bold text-sm md:text-lg tracking-wider`}
           href="https://leanpub.com/designsystemsfordevelopers"
         >
-          Ebook
+          Book
         </a>
 
-        <Link
+        {/* <Link
           className={`${
             expandMenu ? "flex" : "hidden"
           } md:flex mr-0 my-2 md:mr-6 md:my-0 text-cta font-bold text-sm md:text-lg tracking-wider`}
@@ -66,7 +66,7 @@ export default function Navigation() {
           to="/speaking"
         >
           Speaking
-        </Link>
+        </Link> */}
 
         <a
           className={`${

@@ -29,9 +29,9 @@ export default function Footer() {
             className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
             href="https://leanpub.com/designsystemsfordevelopers"
           >
-            Ebook
+            Book
           </a>
-          <Link
+          {/* <Link
             className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider mr-3 md:mr-6"
             to="/newsletter"
           >
@@ -42,7 +42,7 @@ export default function Footer() {
             to="/newsletter"
           >
             Speaking
-          </Link>
+          </Link> */}
           <a
             className="text-dark dark:text-light opacity-75 font-bold text-xs md:text-base tracking-wider"
             href="mailto:mikemangialardi94@gmail.com"
