@@ -4,11 +4,11 @@ import { useToggle } from "react-use"
 
 import Icon from "./icon"
 
-export default function Navigation() {
+export default function Navigation({ cta }) {
   const [expandMenu, toggleExpandMenu] = useToggle()
 
   return (
-    <nav className="flex flex-row justify-between mb-8">
+    <nav className={`flex flex-row justify-between mb-8 ${cta ? 'mt-10' : ''}`}>
       <Link
         className="text-cta font-bold text-base md:text-xl tracking-wider"
         to="/"

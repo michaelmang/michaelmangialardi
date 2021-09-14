@@ -9,7 +9,7 @@ export default function Layout({ children, cta = false }) {
         <div className={context.isDark ? "dark" : "light"}>
           {cta && (
             <a
-              className="flex justify-center p-4 h-30 w-full bg-gradient-to-r from-cta via-background to-background-light text-light text-base md:text-lg"
+              className="fixed flex justify-center p-4 h-30 w-full bg-gradient-to-r from-cta via-background to-background-light text-light text-base md:text-lg"
               href="https://leanpub.com/designsystemsfordevelopers"
               data-splitbee-event="Visit ebook landing page"
             >
@@ -19,7 +19,7 @@ export default function Layout({ children, cta = false }) {
           <div
             className={`font-display min-h-screen w-screen bg-light dark:bg-dark px-8 py-5 md:px-20 md:py-10`}
           >
-            <Navigation />
+            <Navigation cta={cta} />
             <div
               className="h-full flex flex-col justify-between"
               style={{ minHeight: `calc(100vh - 140px)` }}
